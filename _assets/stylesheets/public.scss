@@ -1,0 +1,39 @@
+@import "normalize";
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+@import "refills/centered-navigation";
+@import "refills/tables";
+
+.backstretch { opacity: 0.2 }
+html, body { height: 100%; }
+#page { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; min-width: $medium_screen; }
+header {
+  padding-top: 40px;
+  #logo {
+    a { display: block; height: 136px; margin: 0 auto 40px; text-align: center; background: url(image-path('wf-logo.png')) no-repeat 50% 50%; }
+    span { visibility: hidden; }
+  }
+  nav {
+    margin-bottom: 20px;
+    &.centered-navigation {
+      background: #333; color: #eee;
+      ul li.nav-link a {
+        color: #eee; text-transform: uppercase;
+        &:hover { color: #fff; }
+      }
+    }
+  }
+}
+#content {
+  margin: 0 auto; padding: 0 20px; min-width: $medium_screen; max-width: $large_screen;
+  h1, h2, h3, h4, h5, h6 { margin-bottom: 0.5em; }
+  .fotorama { margin-bottom: 20px; }
+  table { margin-bottom: 20px; }
+  .visible-list {
+    margin-left: 20px; margin-bottom: 20px;
+    li { list-style-type: square; }
+  }
+}
+footer, .footer-push { height: 60px; }
+footer { min-width: $medium_screen; }
