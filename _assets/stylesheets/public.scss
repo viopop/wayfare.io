@@ -37,3 +37,11 @@ header {
 }
 footer, .footer-push { height: 60px; }
 footer { min-width: $medium_screen; }
+
+
+button[disabled='disabled'] {
+  opacity: 0.5;
+  &:hover { cursor: not-allowed; }
+}
+input.ng-invalid, textarea.ng-invalid { color: firebrick; }
+form label span small { color: #aaa; font-style: italic; }

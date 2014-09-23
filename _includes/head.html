@@ -25,9 +25,11 @@
 
   <script type="text/javascript" src="//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
   <script type="text/javascript" src="//fotorama.s3.amazonaws.com/4.6.2/fotorama.js"></script>
-  {{ 'retina' | javascript }}
-  {{ 'jquery.backstretch.min' | javascript }}
+  {{ 'vendor/retina' | javascript }}
+  {{ 'vendor/jquery.backstretch.min' | javascript }}
+  {{ 'vendor/centered-navigation' | javascript }}
   {{ 'public' | javascript }}
   <script type="text/javascript">
     $(function() {
