@@ -1,16 +1,16 @@
 angular.module("WayfareApp", []).config(['$interpolateProvider', function($interpolateProvider) {
   $interpolateProvider.startSymbol('{[').endSymbol(']}');
-}]).controller("ContactFormController", ['$http', '$timeout', function($http, $timeout) {
-  this.contactInfo = {}
-  this.submit = function() {
-    $http.post("/contact.json", this.contactInfo).then(function() {
-      this.submitSuccess = true;
-      this.contactInfo = {}
+}]).controller("ContactFormController", ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
+  $scope.contactInfo = {}
+  $scope.submit = function() {
+    $http.post("/contact.json", $scope.contactInfo).success(function() {
+      $scope.submitSuccess = true;
+      $scope.contactInfo = {}
       $timeout(function() {
-        this.submitSuccess = null;
+        $scope.submitSuccess = null;
       }, 3000)
-    }, function(response) {
-      // Bad stuff happened
+    }).error(function(response) {
+      $scope.error = response.error;
     });
   }
 }]);
