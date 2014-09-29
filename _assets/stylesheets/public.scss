@@ -1,47 +1,52 @@
-@import "normalize";
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "base/base";
-@import "refills/centered-navigation";
-@import "refills/tables";
+@import "colors";
 
 .backstretch { opacity: 0.2 }
-html, body { height: 100%; }
-#page { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; min-width: $medium_screen; }
+#page { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; }
+
 header {
-  padding-top: 40px;
+  height: 400px; padding-top: 50px;
   #logo {
-    a { display: block; height: 136px; margin: 0 auto 40px; text-align: center; background: url(image-path('wf-logo.png')) no-repeat 50% 50%; }
+    a { display: block; height: 300px; margin: 0 auto; text-align: center; background: url(image-path('wf-logo.png')) no-repeat 50% 50%; background-size: 210px auto; }
     span { visibility: hidden; }
   }
-  nav {
-    margin-bottom: 20px;
-    &.centered-navigation {
-      background: #333; color: #eee;
-      ul li.nav-link a {
-        color: #eee; text-transform: uppercase;
-        &:hover { color: #fff; }
-      }
-    }
-  }
 }
-#content {
-  margin: 0 auto; padding: 0 20px; min-width: $medium_screen; max-width: $large_screen;
-  h1, h2, h3, h4, h5, h6 { margin-bottom: 0.5em; }
-  .fotorama { margin-bottom: 20px; }
-  table { margin-bottom: 20px; }
-  .visible-list {
-    margin-left: 20px; margin-bottom: 20px;
-    li { list-style-type: square; }
-  }
-}
-footer, .footer-push { height: 60px; }
-footer { min-width: $medium_screen; }
 
+nav {
+  background: $light_gray; margin-bottom: 20px; text-align: center; border-bottom: 5px solid $brown;
+  a {
+    text-transform: uppercase; font-weight: bold; font-size: 12px; display: inline-block; padding: 20px 10px; text-decoration: none; color: $dark_gray;
+    &:hover { color: #fff; background: $brown; text-decoration: none; }
+  }
+}
+
+#content { margin: 0 auto; padding: 0 20px; }
+
+.wf-block { padding: 40px 0; }
+.block-title { text-transform: uppercase; color: $dark_gray; font-size: 22px; font-weight: bold; margin: 0 0 40px 0; text-align: center; }
+
+.wf-space {
+  .space-img-1 { height: 200px; background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; background-size: cover; }
+  .space-img-2 { height: 200px; background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; background-size: cover; }
+  .space-img-3 { height: 200px; background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; background-size: cover; }
+  .space-img-4 { height: 200px; background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; background-size: cover; }
+  h4 { margin: 40px 0 10px 0; text-transform: uppercase; font-weight: bold; }
+  .buttons {
+    margin-top: 40px; text-align: center;
+    .btn { margin: 0 10px; }
+  }
+}
+
+footer, .footer-push { height: 60px; }
+
+.btn.btn-action {
+  padding: 10px 30px; background: transparent; border: 2px solid $dark_gray; color: $dark_gray; font-size: 16px; text-transform: uppercase;
+  &:hover { background: $dark_gray; color: #fff; }
+}
 
 button[disabled='disabled'] {
   opacity: 0.5;
   &:hover { cursor: not-allowed; }
 }
-input.ng-invalid, textarea.ng-invalid { color: firebrick; }
+
+input.ng-invalid, textarea.ng-invalid { color: $brown; }
 form label span small { color: #aaa; font-style: italic; }
