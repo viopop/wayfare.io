@@ -115,5 +115,9 @@ button[disabled='disabled'] {
   &:hover { cursor: not-allowed; }
 }
 
-input.ng-invalid, textarea.ng-invalid { color: $brown; }
-form label span small { color: #aaa; font-style: italic; }
+form {
+  input.ng-invalid, textarea.ng-invalid { color: $brown; }
+  .form-control { display: block; margin: 3px 0 15px; }
+  label { font-size: 12px; font-weight: bold; display: block; }
+  .flash { padding: 5px; margin-bottom: 15px; border-radius: 3px; }
+}
