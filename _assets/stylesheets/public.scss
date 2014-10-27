@@ -5,11 +5,13 @@ body .row { padding-left: 0; padding-right: 0; margin-right: 0; margin-left: 0; 
 .backstretch { opacity: 0.2 }
 
 header {
-  height: 400px; padding-top: 50px;
+  height: 400px;
   #logo {
-    a { display: block; height: 300px; margin: 0 auto; text-align: center; background: url(image-path('wf-logo.png')) no-repeat center center; background-size: 210px auto; }
+    height: 100%; margin: 0; padding: 0;
+    a { display: block; margin: 0 auto; height: 100%; text-align: center; background: url(image-path('wf-logo.png')) no-repeat center center; background-size: 210px auto; }
     span { visibility: hidden; }
   }
+  &.content { height: 200px; padding-top: 25px; }
 }
 
 nav {
