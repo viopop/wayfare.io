@@ -2,12 +2,10 @@
 <html lang="en" ng-app="WayfareApp">
   {% include head.html %}
   <body>
-    <section id="page">
-      {% include {{page.header}} %}
-      <section id="content">
-        {{ content }}
-      </section>
-    </section>
+    {% include {{page.header}} %}
+    <div id="content">
+      {{ content }}
+    </div>
     {% include footer.html %}
   </body>
 </html>

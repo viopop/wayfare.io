@@ -1,12 +1,13 @@
 @import "colors";
 
+body, html { margin: 0; padding: 0; }
+body .row { padding-left: 0; padding-right: 0; margin-right: 0; margin-left: 0; }
 .backstretch { opacity: 0.2 }
-#page { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; }
 
 header {
   height: 400px; padding-top: 50px;
   #logo {
-    a { display: block; height: 300px; margin: 0 auto; text-align: center; background: url(image-path('wf-logo.png')) no-repeat 50% 50%; background-size: 210px auto; }
+    a { display: block; height: 300px; margin: 0 auto; text-align: center; background: url(image-path('wf-logo.png')) no-repeat center center; background-size: 210px auto; }
     span { visibility: hidden; }
   }
 }
@@ -19,16 +20,18 @@ nav {
   }
 }
 
-.wf-block { padding: 40px 0; margin-top: 40px; }
-.block-title { text-transform: uppercase; color: $dark_gray; font-size: 22px; font-weight: bold; margin: 0 0 40px 0; text-align: center; }
-h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transform: none; font-weight: normal; }
+.wf-block { padding-top: 40px; padding-bottom: 40px; margin-top: 40px; }
+.block-title { text-transform: uppercase; color: $dark_gray; font-size: 22px; font-weight: bold; margin: 0 0 40px 0; padding: 0 20px; text-align: center; }
+h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transform: none; font-weight: normal; line-height: normal; }
 
 .wf-space, .wf-cocreate {
-  .space-img { height: 200px; background-size: cover; }
-  .space-img-1 { background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; }
-  .space-img-2 { background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; }
-  .space-img-3 { background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; }
-  .space-img-4 { background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; }
+  .space-img {
+    height: 200px; border-left: 1px solid #fff; border-bottom: 1px solid #fff;
+    &.space-img-1 { background: url(image-path('wayfare-interior.jpg')) no-repeat center center; background-size: cover; }
+    &.space-img-2 { background: url(image-path('space/interior-12.jpg')) no-repeat center center; background-size: cover; }
+    &.space-img-3 { background: url(image-path('space/interior-5.jpg')) no-repeat center center; background-size: cover; }
+    &.space-img-4 { background: url(image-path('space/interior-8.jpg')) no-repeat center center; background-size: cover; }
+  }
   h5 { margin: 40px 0 10px 0; text-transform: uppercase; font-weight: bold; }
   .buttons {
     margin-top: 40px; text-align: center;
@@ -39,8 +42,11 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 .wf-cowork {
   background: $brown; padding: 0; color: #fff;
   .block-title { color: #fff; }
-  .content-left { padding-top: 40px; padding-bottom: 40px; text-align: center; }
-  .img-right { height: 300px; background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; background-size: cover; }
+  .content-left {
+    padding-top: 40px; padding-bottom: 40px; text-align: center;
+    p { padding: 0 20px; }
+  }
+  .img-right { height: 300px; background: url(image-path('wayfare-interior.jpg')) no-repeat center center; background-size: cover; }
 }
 
 .wf-benefits {
@@ -55,26 +61,25 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 }
 
 .wf-colearn {
-  .colearn-img { height: 200px; background-size: cover; margin-bottom: 25px;  }
-  .colearn-img-1 { background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; }
-  .colearn-img-2 { background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; }
-  .colearn-img-3 { background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; }
-  .colearn-img-4 { background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; }
+  .colearn-img { height: 200px; margin-bottom: 25px;  }
+  .colearn-img-1 { background: url(image-path('events/thanksgiving.jpg')) no-repeat center center; background-size: cover; }
+  .colearn-img-2 { background: url(image-path('events/q-commons-logo.png')) no-repeat center center; background-size: cover;  }
+  .colearn-img-3 { background: url(image-path('events/a-christmas-story.jpg')) no-repeat center center; background-size: cover;  }
+  .colearn-img-4 { background: url(image-path('events/christmas-party.jpg')) no-repeat center center; background-size: cover;  }
   strong { text-transform: uppercase; font-size: 14px; font-weight: bold; }
   p.date { font-size: 11px; }
 }
 
 .wf-cocreate {
   background: $brown;
-  h2.block-title { color: #888; }
+  .block-title { color: #fff; }
 }
 
 .wf-labs {
   background: $blue; padding: 0; color: #fff; margin-top: 0;
-  div { padding: 0 20px; }
-  .block-title { color: #fff; text-align: left; }
-  .img-left { height: 300px; background: url(image-path('wayfare-interior.jpg')) no-repeat 50% 50%; background-size: cover; }
-  .content-right { padding-top: 40px; padding-bottom: 40px; }
+  .block-title { color: #fff; text-align: left; padding: 0; }
+  .img-left { height: 300px; background: url(image-path('wayfare-interior.jpg')) no-repeat center center; background-size: cover; }
+  .content-right { padding-top: 40px; padding-bottom: 40px; padding-left: 20px; }
   p {
     font-size: 16px; color: rgba(255,255,255,0.75); margin-bottom: 20px;
     &:last-child { font-size: 11px; color: #fff; margin-bottom: 0; }
@@ -82,15 +87,15 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 }
 
 footer {
-  background: #333; border-top: 5px solid $orange; padding: 30px 0; color: #fff; margin-top: 40px;
+  background: #333; border-top: 5px solid $orange; padding: 30px 0; color: #fff; margin-top: 40px; text-align: center;
   h5 { font-size: 11px; text-transform: uppercase; margin-bottom: 15px; }
   ul.social-links {
     li { display: inline-block; margin-right: 10px; }
     a {
       display: block; width: 23px; height: 23px; background-size: 100%;
-      &.instagram { background: url(image-path('instagram.png')) no-repeat 50% 50%; }
-      &.twitter { background: url(image-path('twitter.png')) no-repeat 50% 50%; }
-      &.facebook { background: url(image-path('facebook.png')) no-repeat 50% 50%; }
+      &.instagram { background: url(image-path('instagram.png')) no-repeat center center; }
+      &.twitter { background: url(image-path('twitter.png')) no-repeat center center; }
+      &.facebook { background: url(image-path('facebook.png')) no-repeat center center; }
     }
   }
 }
