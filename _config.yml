@@ -37,7 +37,7 @@ defaults:
       path: ""
     values:
       layout: "default"
-      header: "header-home.html"
+      header: "header-default.html"
   -
     scope:
       path: "blog"
