@@ -157,5 +157,18 @@ title: "^Wayfare &mdash; We believe in the world's best future"
 </div> -->
 
 <div class="wf-map wf-block">
-
+  <h1 class="block-title">Stop by and see us!</h1>
+  <div id="map"></div>
 </div>
+
+<script type="text/javascript">
+  $(function() {
+    L.mapbox.accessToken = 'pk.eyJ1Ijoid2F5ZmFyZSIsImEiOiJQVG5NQS0wIn0.fgKjbGJFALHxSY9AQTztEw';
+    var map = L.mapbox.map('map', 'wayfare.jikcn876');
+    map.featureLayer.on('ready', function(e) {
+       map.featureLayer.eachLayer(function(layer) {
+        layer.openPopup();
+       });
+     });
+  });
+</script>
