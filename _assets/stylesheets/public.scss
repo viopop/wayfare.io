@@ -1,4 +1,5 @@
 @import "colors";
+@import "media-queries";
 
 body, html { margin: 0; padding: 0; }
 body .row { padding-left: 0; padding-right: 0; margin-right: 0; margin-left: 0; }
@@ -14,11 +15,18 @@ header {
   &.content { height: 200px; padding-top: 25px; }
 }
 
-nav {
-  background: $light_gray; text-align: center; border-bottom: 5px solid $orange;
-  a {
-    text-transform: uppercase; font-weight: bold; font-size: 12px; display: inline-block; padding: 20px 10px; text-decoration: none; color: $dark_gray;
-    &:hover { color: #fff; background: $orange; text-decoration: none; }
+.nav-wrapper {
+  width: 100%; background: $dark_gray; text-align: center; border-bottom: 6px solid $purple; z-index: 9999;
+  nav {
+    a {
+      text-transform: uppercase; font-weight: bold; font-size: 12px; display: inline-block; padding: 20px 10px; text-decoration: none; color: #fff;
+      &:hover { color: #fff; background: $purple; text-decoration: none; }
+    }
+  }
+  &.nav-home { position: absolute; bottom: 0; left: 0; }
+  &.fixed {
+    position: fixed; top: 0; left: 0; width: 100%; height: 63px;
+    &:hover { @extend .fixed; }
   }
 }
 
@@ -37,12 +45,12 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
   h5 { margin: 40px 0 10px 0; text-transform: uppercase; font-weight: bold; }
   .buttons {
     margin-top: 40px; text-align: center;
-    .btn { margin: 0 10px; }
+    .btn { margin: 10px; }
   }
 }
 
 .wf-cowork {
-  background: $brown; padding: 0; color: #fff;
+  background: $brown; padding-top: 0; padding-bottom: 0; margin-top: 0; color: #fff;
   .block-title { color: #fff; }
   .content-left {
     padding-top: 40px; padding-bottom: 40px; text-align: center;
@@ -58,7 +66,7 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 }
 
 .wf-pricing {
-  background: $blue; height: 200px;
+  background: $purple; height: 200px;
   .block-title { color: #fff; }
 }
 
@@ -73,12 +81,12 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 }
 
 .wf-cocreate {
-  background: $brown;
-  .block-title { color: #fff; }
+  padding-bottom: 200px;
+  h2 { font-size: 18px; color: #777; text-align: center; line-height: 22px; }
 }
 
 .wf-labs {
-  background: $blue; padding: 0; color: #fff; margin-top: 0;
+  background: $purple; padding: 0; color: #fff; margin-top: 0;
   .block-title { color: #fff; text-align: left; padding: 0; }
   .img-left { height: 300px; background: url(image-path('wayfare-interior.jpg')) no-repeat center center; background-size: cover; }
   .content-right { padding-top: 40px; padding-bottom: 40px; padding-left: 20px; }
@@ -122,4 +130,16 @@ form {
   .form-control { display: block; margin: 3px 0 15px; }
   label { font-size: 12px; font-weight: bold; display: block; }
   .flash { padding: 5px; margin-bottom: 15px; border-radius: 3px; }
+}
+
+@media #{$xs} {
+  body {
+    .nav-wrapper {
+      nav {
+        a { padding: 15px 8px; }
+      }
+      &.fixed { height: 100px; }
+    }
+    .wf-colearn p.date { margin-bottom: 40px; }
+  }
 }

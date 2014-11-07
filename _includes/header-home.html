@@ -6,3 +6,24 @@
   </h1>
 </header>
 {% include nav-home.html %}
+
+<script>
+  var header = $('header');
+  var logo = $('#logo');
+  var nav = $('.nav-home');
+  var navHeight = nav.height();
+  var windowHeight = $(window).height();
+
+  header.css('height', windowHeight);
+  logo.css('height', (windowHeight - navHeight));
+
+  $(window).scroll(function() {
+    var scrollPosition = $(window).scrollTop();
+    if (scrollPosition > (windowHeight - navHeight)) {
+      nav.addClass('fixed');
+    } else {
+      nav.removeClass('fixed');
+    }
+  });
+</script>
+
