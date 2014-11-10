@@ -72,11 +72,10 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 }
 
 .wf-colearn {
-  .colearn-img { height: 200px; margin-bottom: 25px;  }
-  .colearn-img-1 { background: url(image-path('events/thanksgiving.jpg')) no-repeat center center; background-size: cover; }
-  .colearn-img-2 { background: url(image-path('events/q-commons-logo.png')) no-repeat center center; background-size: cover;  }
-  .colearn-img-3 { background: url(image-path('events/a-christmas-story.jpg')) no-repeat center center; background-size: cover;  }
-  .colearn-img-4 { background: url(image-path('events/christmas-party.jpg')) no-repeat center center; background-size: cover;  }
+  .colearn-img {
+    height: 200px; margin-bottom: 25px; overflow: hidden; background: #eee; text-align: center;
+    img { height: 200px; }
+  }
   strong { text-transform: uppercase; font-size: 14px; font-weight: bold; }
   p.date { font-size: 11px; }
 }
