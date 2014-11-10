@@ -3,8 +3,7 @@ title: Wayfare
 email: hi@wayfare.io
 description: "We believe in the world's best future."
 url: http://wayfare.io
-twitter_username: helloagentapp
-github_username:  helloagent
+twitter_username: wayfarehq
 
 # Build settings
 encoding: utf-8
@@ -37,7 +36,7 @@ defaults:
       path: ""
     values:
       layout: "default"
-      header: "header.html"
+      header: "header-default.html"
   -
     scope:
       path: "blog"
