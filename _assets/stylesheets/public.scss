@@ -161,6 +161,9 @@ form {
 
 @media #{$xs} {
   body {
+    header {
+      &#home #logo a { background-size: 210px auto; }
+    }
     .nav-wrapper {
       nav {
         a { padding: 15px 8px; }
