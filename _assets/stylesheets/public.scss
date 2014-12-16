@@ -1,9 +1,18 @@
 @import "colors";
 @import "media-queries";
+@import "mixins";
 
-body, html { margin: 0; padding: 0; }
+html, body { margin: 0; padding: 0; height: 100%; }
 body .row { padding-left: 0; padding-right: 0; margin-right: 0; margin-left: 0; }
 .backstretch { opacity: 0.2 }
+#wrapper { min-height: 100%; padding: 0; margin: 0 auto -140px; }
+#page-footer, #push { height: 140px; }
+body.layout-variant-padding, body#layout-post {
+  .nav-wrapper { margin-bottom: 20px; }
+  #page-footer { margin-top: 20px; }
+  #wrapper { margin-bottom: -160px; }
+  #push { height: 160px; }
+}
 
 header {
   height: 400px;
@@ -90,8 +99,15 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 }
 
 .wf-cocreate {
-  padding-bottom: 200px;
   h2 { font-size: 18px; color: #777; text-align: center; line-height: 22px; }
+}
+
+#blog-index {
+  aside.sidebar {
+    margin: 15px 0; padding: 15px; @include border-radius(5px);
+    &.sidebar-about { background: $purple; color: #fff; }
+    &.sidebar-recents { background: #f2f2f2; border: 1px solid #ddd; }
+  }
 }
 
 .wf-map {
@@ -127,7 +143,7 @@ form {
   input.ng-invalid, textarea.ng-invalid { color: $brown; }
   .form-control { display: block; margin: 3px 0 15px; }
   label { font-size: 12px; font-weight: bold; display: block; }
-  .flash { padding: 5px; margin-bottom: 15px; border-radius: 3px; }
+  .flash { padding: 5px; margin-bottom: 15px; @include border-radius(3px); }
 }
 
 @media #{$xs} {

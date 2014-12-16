@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="WayfareApp">
   {% include head.html %}
-  <body>
-    {% include {{page.header}} %}
-    <div id="content">
-      {{ content }}
+  <body id="layout-default" class="layout-variant-{% if page.layout_variant %}{{page.layout_variant}}{% else %}none{% endif %}">
+    <div id="wrapper">
+      {% include {{page.header}} %}
+      <div id="content">
+        {{ content }}
+      </div>
+      <div id="push"></div>
     </div>
     {% include footer.html %}
   </body>

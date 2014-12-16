@@ -1,0 +1,55 @@
+---
+title: "The Wayfare Blog"
+layout_variant: "padding"
+---
+
+<div id="blog-index" class="container">
+  <div class="row">
+    <div class="col-xs-3">
+      <aside class="sidebar sidebar-about">
+        <h4>The Wayfare Blog</h4>
+        <p>You are dreamers, artisans, and difference-makers. You are creatives, entrepreneurs, and adventurers. You are believers in the world's best future. Welcome to our community blog.</p>
+      </aside>
+      <aside class="sidebar sidebar-recents">
+        <h4>Recent Posts</h4>
+        <ul class="list-unstyled">
+          {% for post in site.posts limit: 5 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </aside>
+    </div>
+    <div class="col-xs-9">
+      <section class="posts list-unstyled">
+        {% for post in site.posts %}
+          <article class="clearfix posts-list">
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p class="metadata">
+              <span>{{ post.date | | date: '%B %-d, %Y' }}</span> |
+              by:
+              {% if post.author_slug %}
+                <a href="https://wayfare.io/authors/{{ post.author_slug }}">{{ post.author }}</a>
+              {% else %}
+                {{ post.author }}
+              {% endif %}
+            </p>
+            <div class="post-body">
+              {% if post.post_image %}
+                <aside class="{{post.post_image_list_class}}">
+                  <a href="{{ post.url }}">
+                    <img src="{{ post.post_image | asset_path }}" alt="{{post.post_image_title}}" title="{{post.post_image_title}}">
+                  </a>
+                  {% if post.post_image_caption %}
+                    <figcaption><em>{{post.post_image_caption}}</em></figcaption>
+                  {% endif %}
+                </aside>
+              {% endif %}
+              {{ post.excerpt }}
+            </div>
+            <a class="read-more btn btn-default" href="{{ post.url }}">Read More &rarr;</a>
+          </article>
+        {% endfor %}
+      </section>
+    </div>
+  </div>
+</div>

@@ -41,7 +41,7 @@ defaults:
     scope:
       path: "blog"
     values:
-      layout: "blog"
+      layout: "default"
   -
     scope:
       path: ""

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="WayfareApp">
+  {% include head.html %}
+  <body id="layout-post">
+    <div id="wrapper">
+      {% include {{page.header}} %}
+      <div id="content" class="container">
+        <div class="row">
+          <article class="single-post col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <p class="metadata">
+              <span>{{ page.date | | date: '%B %-d, %Y' }}</span> |
+              by:
+              {% if page.author_slug %}
+                <a href="https://wayfare.io/authors/{{ page.author_slug }}">{{ page.author }}</a>
+              {% else %}
+                {{ page.author }}
+              {% endif %}
+            </p>
+            <div class="post-body">
+              {% if page.post_image %}
+                <aside class="{{page.post_image_list_class}}">
+                  <a href="{{ page.url }}">
+                    <img src="{{ page.post_image | asset_path }}" alt="{{page.post_image_title}}" title="{{page.post_image_title}}">
+                  </a>
+                  {% if page.post_image_caption %}
+                    <figcaption><em>{{page.post_image_caption}}</em></figcaption>
+                  {% endif %}
+                </aside>
+              {% endif %}
+              {{ content }}
+            </div>
+          </article>
+        </div>
+      </div>
+      <div id="push"></div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
