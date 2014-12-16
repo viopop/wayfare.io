@@ -45,7 +45,7 @@ header {
 
 .wf-block {
   padding-top: 40px; padding-bottom: 40px; margin-top: 40px;
-  .feature-list { padding-left: 15px; }
+  .feature-list { padding-left: 5px; }
 }
 .block-title { text-transform: uppercase; color: $dark_gray; font-size: 22px; font-weight: bold; margin: 0 0 40px 0; padding: 0 20px; text-align: center; }
 h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transform: none; font-weight: normal; line-height: normal; }
@@ -169,6 +169,9 @@ form {
         a { padding: 15px 8px; }
       }
       &.fixed { height: 100px; }
+    }
+    .wf-block {
+      .feature-list { padding-left: 20px; }
     }
     .wf-colearn .event {
       height: auto !important;
