@@ -3,9 +3,9 @@ title: "The Wayfare Blog"
 layout_variant: "padding"
 ---
 
-<div id="blog-index" class="container">
+<div class="container">
   <div class="row">
-    <div class="col-xs-3">
+    <div class="blog-sidebar col-sm-3">
       <aside class="sidebar sidebar-about">
         <h4>The Wayfare Blog</h4>
         <p>You are dreamers, artisans, and difference-makers. You are creatives, entrepreneurs, and adventurers. You are believers in the world's best future. Welcome to our community blog.</p>
@@ -19,10 +19,10 @@ layout_variant: "padding"
         </ul>
       </aside>
     </div>
-    <div class="col-xs-9">
+    <div class="col-sm-9">
       <section class="posts list-unstyled">
         {% for post in site.posts %}
-          <article class="clearfix posts-list">
+          <article class="clearfix multiple-posts">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <p class="metadata">
               <span>{{ post.date | | date: '%B %-d, %Y' }}</span> |
