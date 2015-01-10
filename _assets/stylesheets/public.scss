@@ -32,7 +32,7 @@ header {
   nav {
     a {
       cursor: pointer; text-transform: uppercase; font-weight: bold; font-size: 15px; display: inline-block; padding: 20px 10px; text-decoration: none; color: #fff;
-      &:hover { color: #fff; background: $purple; text-decoration: none; }
+      &.active, &:hover { color: #fff; background: $purple; text-decoration: none; }
     }
     hr { margin: 0; padding: 0; border-color: $purple; }
   }

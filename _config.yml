@@ -48,9 +48,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      nav: "blog"
   -
     scope:
       path: ""
       type: "drafts"
     values:
       layout: "post"
+      nav: "blog"

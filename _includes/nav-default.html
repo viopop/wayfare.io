@@ -1,13 +1,13 @@
 <div class="nav-wrapper">
   <nav>
     <a href="/#wf-space">The Space</a>
-    <a href="/coworking">Coworking</a>
-    <a href="/events">Events</a>
+    <a href="/coworking" {% if page.nav == "coworking" %}class="active"{% endif %}>Coworking</a>
+    <a href="/events" {% if page.nav == "events" %}class="active"{% endif %}>Events</a>
       <br class="visible-xs">
       <hr class="visible-xs">
-    <a href="/incubator">Incubator</a>
-    <a href="/blog">Blog</a>
-    <a href="/gift-guide">Gift Guide</a>
-    <a href="/contact">Contact</a>
+    <a href="/incubator" {% if page.nav == "incubator" %}class="active"{% endif %}>Incubator</a>
+    <a href="/blog" {% if page.nav == "blog" %}class="active"{% endif %}>Blog</a>
+    <a href="/gift-guide" {% if page.nav == "gift-guide" %}class="active"{% endif %}>Gift Guide</a>
+    <a href="/contact" {% if page.nav == "contact" %}class="active"{% endif %}>Contact</a>
   </nav>
 </div>
