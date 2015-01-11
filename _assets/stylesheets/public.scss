@@ -159,6 +159,11 @@ form {
   .flash { padding: 5px; margin-bottom: 15px; @include border-radius(3px); }
 }
 
+.shareables {
+  .fb_iframe_widget { top: -5px; }
+  h2 { font-size: 1em; text-transform: uppercase; color: #999; }
+}
+
 @media #{$xs} {
   body {
     header {
