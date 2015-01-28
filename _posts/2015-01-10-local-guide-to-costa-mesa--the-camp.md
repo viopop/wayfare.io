@@ -18,7 +18,7 @@ Be sure to come back on a Saturday for live music, or the last Tuesday of the mo
 
 To learn more about upcoming events and other CAMP attractions, visit [http://thecampsite.com](http://thecampsite.com)!
 
-<div class="fotorama fotorama-blog-post" data-width="100%" data-maxheight="500" data-nav="thumbs" data-allowfullscreen="true" data-fit="cover" data-loop="true" data-keyboard="true" data-navposition="top">
+<div class="fotorama fotorama-wayfare" data-width="100%" data-maxheight="500" data-nav="thumbs" data-allowfullscreen="true" data-fit="cover" data-loop="true" data-keyboard="true" data-navposition="top">
   <a href="{{ 'posts/2015-01-10-local-guide-to-costa-mesa--the-camp/the-camp-wiley-architects.jpg' | asset_path }}" data-caption="Photo by Wiley Architects"></a>
   <a href="{{ 'posts/2015-01-10-local-guide-to-costa-mesa--the-camp/the-camp-an-tyrrell.jpg' | asset_path }}" data-caption="Photo by An Tyrrell"></a>
   <a href="{{ 'posts/2015-01-10-local-guide-to-costa-mesa--the-camp/the-camp-lovingly-simple.jpg' | asset_path }}" data-caption="Photo by Lovingly Simple"></a>

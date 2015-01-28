@@ -53,10 +53,6 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 .wf-space, .wf-cocreate {
   .space-img {
     height: 200px; border-left: 1px solid #fff; border-bottom: 1px solid #fff;
-    &.space-img-1 { background: url(image-path('wayfare-interior.jpg')) no-repeat center center; background-size: cover; }
-    &.space-img-2 { background: url(image-path('space/interior-12.jpg')) no-repeat center center; background-size: cover; }
-    &.space-img-3 { background: url(image-path('space/interior-5.jpg')) no-repeat center center; background-size: cover; }
-    &.space-img-4 { background: url(image-path('space/interior-8.jpg')) no-repeat center center; background-size: cover; }
   }
   h5 { margin: 40px 0 10px 0; text-transform: uppercase; font-weight: bold; }
   .buttons {
@@ -166,10 +162,11 @@ form {
   }
 }
 
-.fotorama-blog-post {
-  margin: 20px 0; border: 4px solid #333;
+.fotorama-wayfare {
+  margin: 20px auto; border: 4px solid #333;
   .fotorama__nav--thumbs { background: #333; }
   .fotorama__thumb-border { border-color: #428bca; }
+  .fotorama__nav--dots { background: #333; }
 }
 
 .shareables {
