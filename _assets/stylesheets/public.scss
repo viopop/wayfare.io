@@ -45,6 +45,7 @@ header {
 
 .wf-block {
   padding-top: 40px; padding-bottom: 40px; margin-top: 40px;
+  &.wf-header a { color: white; text-decoration: underline; }
   .feature-list { padding-left: 5px; }
 }
 .block-title { text-transform: uppercase; color: $dark_gray; font-size: 22px; font-weight: bold; margin: 0 0 40px 0; padding: 0 20px; text-align: center; }
