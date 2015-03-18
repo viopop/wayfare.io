@@ -1,0 +1,104 @@
+/*
+ * jQuery TicketLeap Upcoming Events Plugin 0.1
+ * Copyright (c) 2010 Tim Crowe
+ *
+ * http://www.ticketleap.com/
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+.tl-upcoming {
+	background: #333;
+	font-size: 100%;
+	margin: 0 0 10px 0;
+}
+
+.tl-upcoming .tl-upcoming-content-list,
+.tl-upcoming .tl-upcoming-nav-controls {
+	border-collapse:collapse;
+	width: 100%;
+}
+
+.tl-upcoming-button {
+	background: #7E7E7E;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	padding: 7px 10px;
+	white-space: nowrap;
+}
+
+/* Header
+------------------------------------------------------------------------*/
+.tl-upcoming-header-label {
+	background: #333;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 12px;
+  text-transform: uppercase;
+}
+
+/* Content
+------------------------------------------------------------------------*/
+.tl-upcoming-content {
+	background: none repeat scroll 0 0 #F7F7F7;
+	margin: 0 2px;
+	padding: 7px 18px 10px;
+}
+
+.tl-upcoming-content .tl-upcoming-item-label,
+.tl-upcoming-content .tl-upcoming-item-control {
+	border-top: 2px solid #E0E0E0;
+}
+
+.tl-upcoming-content .tl-upcoming-item-first .tl-upcoming-item-label,
+.tl-upcoming-content .tl-upcoming-item-first .tl-upcoming-item-control {
+	border-top: 0 none;
+}
+
+.tl-upcoming-item-label {
+	color: #3081BC;
+	font-size: 14px;
+    font-weight: bold;
+    opacity: 0.86;
+	padding: 7px 10px 12px 0;
+    width: 100%;
+}
+
+.tl-upcoming-item-label .tl-upcoming-event-dates {
+	color: #444;
+	font-size: 11px;
+    font-weight: normal;
+}
+
+.tl-upcoming-item-control {
+	padding: 7px 0 12px 10px;
+    text-align: right;
+}
+
+/* Navigation
+------------------------------------------------------------------------*/
+.tl-upcoming-nav {
+	min-height: 25px;
+	padding: 0px 18px;
+}
+
+.tl-upcoming-nav .tl-upcoming-nav-previous {
+	padding: 7px 10px 12px 0;
+}
+
+.tl-upcoming-nav .tl-upcoming-nav-events {
+	padding: 7px 10px 12px;
+	text-align: center;
+	width: 100%;
+}
+
+.tl-upcoming-nav .tl-upcoming-nav-next {
+	padding: 7px 0 12px 10px;
+	text-align: right;
+}
