@@ -20,10 +20,10 @@ nav: "events"
         <h2>UPCOMING EVENTS</h2>
       </div>
       <div class="row">
-        <div ng-repeat="event in events | filter:futureEvents | orderBy:sortDate" class="panel panel-default">
+        <div ng-repeat="event in events | filter:futureEvents | orderBy:sortDate" class="panel panel-default" itemscope itemtype="http://schema.org/Event">
           <div class="panel-heading">
-            <a href="{[event.url]}">
-              <h4>{[event.name]}<span class="pull-right">&raquo;</span></h4>
+            <a href="{[event.url]}" itemprop="url">
+              <h4><span itemprop="name">{[event.name]}</span><span class="pull-right">&raquo;</span></h4>
             </a>
           </div>
           <div class="panel-body media">
@@ -33,7 +33,11 @@ nav: "events"
               </a>
             </div>
             <div class="media-body">
-              <h5 class="media-heading">{[convertToDate(event.earliest_start_local) | date:'MMM d, yyyy h:mma']}&mdash;{[convertToDate(event.earliest_end_local) | date:'h:mma']}</h5>
+              <h5 class="media-heading">
+                <span itemprop="startDate" content="{[convertToDate(event.earliest_start_local) | date:'yyyy-MM-ddTHH:mm']}">{[convertToDate(event.earliest_start_local) | date:'MMM d, yyyy h:mma']}</span>
+                &mdash;
+                <span itemprop="endDate" content="{[convertToDate(event.earliest_end_local) | date:'yyyy-MM-ddTHH:mm']}">{[convertToDate(event.earliest_end_local) | date:'h:mma']}</span>
+              </h5>
               <p>{[event.description | words:50]}</p>
               <p><a href="{[event.url]}">View Details and Register &raquo;</a></p>
             </div>
