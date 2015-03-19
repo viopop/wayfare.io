@@ -13,8 +13,59 @@ nav: "events"
   </div>
 </div>
 
-<div class="wf-colearn wf-block" id="wf-colearn">
-  <div class="container">
-    <div id="upcoming-events" class="row"></div>
+<div class="container" ng-controller="EventsController">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row">
+        <h2>UPCOMING EVENTS</h2>
+      </div>
+      <div class="row">
+        <div ng-repeat="event in events | filter:futureEvents | orderBy:sortDate" class="panel panel-default">
+          <div class="panel-heading">
+            <a href="{[event.url]}">
+              <h4>{[event.name]}<span class="pull-right">&raquo;</span></h4>
+            </a>
+          </div>
+          <div class="panel-body media">
+            <div class="pull-left media-left">
+              <a href="{[event.url]}">
+                <img src="{[event.hero_small_image_url]}" class="media-object" width="150">
+              </a>
+            </div>
+            <div class="media-body">
+              <h5 class="media-heading">{[convertToDate(event.earliest_start_local) | date:'MMM d, yyyy h:mma']}&mdash;{[convertToDate(event.earliest_end_local) | date:'h:mma']}</h5>
+              <p>{[event.description | words:50]}</p>
+              <p><a href="{[event.url]}">View Details and Register &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h2>PAST EVENTS</h2>
+      </div>
+      <div class="row">
+        <div ng-repeat="event in events | filter:pastEvents | orderBy:sortDate:true" class="panel panel-default">
+          <div class="panel-heading">
+            <a href="{[event.url]}">
+              <h4>{[event.name]}<span class="pull-right">&raquo;</span></h4>
+            </a>
+          </div>
+          <div class="panel-body media">
+            <div class="pull-left media-left">
+              <a href="{[event.url]}">
+                <img src="{[event.hero_small_image_url]}" class="media-object" width="150">
+              </a>
+            </div>
+            <div class="media-body">
+              <h5 class="media-heading">{[convertToDate(event.earliest_start_local) | date:'MMM d, yyyy h:mma']}&mdash;{[convertToDate(event.earliest_end_local) | date:'h:mma']}</h5>
+              <p>{[event.description | words:50]}</p>
+              <p><a href="{[event.url]}">View Details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+    </div>
   </div>
 </div>
