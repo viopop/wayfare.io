@@ -15,12 +15,12 @@ nav: "events"
 
 <div class="container" ng-controller="EventsController">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-8 events">
       <div class="row">
         <h2>UPCOMING EVENTS</h2>
       </div>
       <div class="row">
-        <div ng-repeat="event in events | filter:futureEvents | orderBy:sortDate" class="panel panel-default" itemscope itemtype="http://schema.org/Event">
+        <div ng-repeat="event in events | filter:futureEvents | orderBy:sortDate" class="panel panel-default event" itemscope itemtype="http://schema.org/Event">
           <div class="panel-heading">
             <a href="{[event.url]}" itemprop="url">
               <h4><span itemprop="name">{[event.name]}</span><span class="pull-right">&raquo;</span></h4>
@@ -29,7 +29,7 @@ nav: "events"
           <div class="panel-body media">
             <div class="pull-left media-left">
               <a href="{[event.url]}">
-                <img src="{[event.hero_small_image_url]}" class="media-object" width="150">
+                <img ng-src="{[event.hero_small_image_url]}" class="media-object" width="150">
               </a>
             </div>
             <div class="media-body">
@@ -48,7 +48,7 @@ nav: "events"
         <h2>PAST EVENTS</h2>
       </div>
       <div class="row">
-        <div ng-repeat="event in events | filter:pastEvents | orderBy:sortDate:true" class="panel panel-default">
+        <div ng-repeat="event in events | filter:pastEvents | orderBy:sortDate:true" class="panel panel-default event">
           <div class="panel-heading">
             <a href="{[event.url]}">
               <h4>{[event.name]}<span class="pull-right">&raquo;</span></h4>
@@ -57,7 +57,7 @@ nav: "events"
           <div class="panel-body media">
             <div class="pull-left media-left">
               <a href="{[event.url]}">
-                <img src="{[event.hero_small_image_url]}" class="media-object" width="150">
+                <img ng-src="{[event.hero_small_image_url]}" class="media-object" width="150">
               </a>
             </div>
             <div class="media-body">
@@ -69,7 +69,18 @@ nav: "events"
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 photos" ng-controller="PhotosController">
+      <div class="row">
+        <h2>RECENT PHOTOS</h2>
+      </div>
+      <div class="row">
+        <div class="photo" ng-repeat="photo in photos">
+          <a ng-href="{[photo.link]}"><img ng-src="{[photo.images.thumbnail.url]}"></a>
+        </div>
+      </div>
+      <div class="row">
+        <a href="http://instagram.com/wayfarehq">View More &raquo;</a>
+      </div>
     </div>
   </div>
 </div>

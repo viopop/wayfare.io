@@ -91,3 +91,19 @@ angular.module("WayfareApp").controller("EventsController", ['$scope', 'TicketLe
     }
   }
 }]);
+
+
+angular.module("WayfareApp").factory('Instagram', ['$http', function($http) {
+  return function() {
+    return $http.jsonp("https://api.instagram.com/v1/users/self/media/recent?access_token=1132399196.5c5985b.a93eb21d79f843e6964d05839c4b2d21&client_id=5c5985b918f54be8ae355517c35b40f6&callback=JSON_CALLBACK")
+  }
+}]);
+
+angular.module("WayfareApp").controller("PhotosController", ['$scope', 'Instagram', function($scope, Instagram) {
+  $scope.photos = [];
+  Instagram().success(function(data) {
+    $scope.photos = data.data;
+  }).error(function() {
+    console.log("Error loading Instagram");
+  });
+}]);

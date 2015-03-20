@@ -95,7 +95,11 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
     p { padding: 0 20px; }
   }
   .img-right { height: 300px; background: url(image-path('events-header.jpg')) no-repeat center center; background-size: cover; }
-  .event .thumbnail { height: 97%; }
+}
+.events .event .panel-heading a { color: #333; }
+.photos .photo {
+  padding: 3px; margin: 5px; background: #eee; float: left;
+  img { width: 120px; }
 }
 
 .wf-cocreate {
