@@ -40,6 +40,18 @@ angular.module("WayfareApp", ['truncate']).config(['$interpolateProvider', funct
   $interpolateProvider.startSymbol('{[').endSymbol(']}');
 }]);
 
+angular.module("WayfareApp").filter('linebreaks', function() {
+  return function(text) {
+    return text.replace(/\n/g, '<br>');
+  };
+});
+
+angular.module("WayfareApp").filter('https', function() {
+  return function(text) {
+    return text.replace(/^http:\/\//, 'https://');
+  };
+});
+
 angular.module('WayfareApp').controller("ContactFormController", ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
   $scope.contactInfo = {}
   $scope.submit = function() {
@@ -54,12 +66,6 @@ angular.module('WayfareApp').controller("ContactFormController", ['$scope', '$ht
     });
   }
 }]);
-
-angular.module("WayfareApp").filter('linebreaks', function() {
-  return function(text) {
-    return text.replace(/\n/g, '<br>');
-  };
-});
 
 angular.module('WayfareApp').factory('TicketLeap', ['$http', function($http) {
   return function() {
