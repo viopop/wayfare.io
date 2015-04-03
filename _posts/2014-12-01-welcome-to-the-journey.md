@@ -2,6 +2,8 @@
 title: "Welcome to the Journey"
 author: "Jeff Tanner"
 excerpt: "<p>Fellow Wayfarers,</p><p>You are dreamers, artisans, and difference-makers. You are creatives, entrepreneurs, and adventurers. You are believers in the world's best future.</p><p>Welcome to our community blog.</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2014/12/01/welcome-to-the-journey/"
 ---
 
 Fellow Wayfarers,

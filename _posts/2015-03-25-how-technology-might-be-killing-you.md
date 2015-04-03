@@ -2,6 +2,8 @@
 title: "How Technology Might Be Killing You (Figuratively, or in My Case Kind of Literally)"
 author: "Chris Mann"
 excerpt: "<p>I was driving in my daily traffic jam hell listening to NPR and yelling at slow drivers (we live in SoCal, give me a break). Robert Segal was about to bring it home when my phone rang. Was it work, or work related, or work adjacent? I really don't know but apparently it was extremely pressing and required all of my attention; I answered...</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2015/03/25/how-technology-might-be-killing-you/"
 ---
 
 I was driving in my daily traffic jam hell listening to NPR and yelling at slow drivers (we live in SoCal, give me a break). Robert Segal was about to bring it home when my phone rang. Was it work, or work related, or work adjacent? I really don't know but apparently it was extremely pressing and required all of my attention; I answered, hands free at this point. I ended the call and began thumbing through my phone while crawling on the 5. I had to check on something, and I needed to do it right then. I looked down, opened my mail app and glanced up to find the car in front of me had completely stopped. I just about shoved my foot through the floor of my weathered Ford Focus, sending the car to a screeching stop. I didn't hit the guy, but almost. With my adrenaline through the roof and the guy in front of me flashing some very colorful sign language, I found myself considering, why?

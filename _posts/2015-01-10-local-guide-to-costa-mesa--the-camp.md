@@ -2,6 +2,8 @@
 title: "A Local's Guide to Costa Mesa: The CAMP"
 author: "Caitlin Kraina"
 excerpt: "<p>One of my favorite places in Costa Mesa is the CAMP. The CAMP has it all: unique and healthy dining, fun shops and boutiques, yoga classes, mouth-watering dessert, art walks, and even a \"treehouse\" for documentary screenings and events.</p><p>Getting to the CAMP alone is a poetic experience. You probably parked your car in front of a giant wall that spells \"community\", and your parking space likely gave you inspirational advice to \"dive in and be free\", and \"say hello to others\".</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2015/01/10/local-guide-to-costa-mesa-the-camp/"
 ---
 
 One of my favorite places in Costa Mesa is the CAMP. The CAMP has it all: unique and healthy dining, fun shops and boutiques, yoga classes, mouth-watering dessert, art walks, and even a "treehouse" for documentary screenings and events.

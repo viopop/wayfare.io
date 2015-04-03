@@ -2,6 +2,8 @@
 title: "Novelty Isn't Creativity; At Least Not All of It"
 author: "Jeff Tanner"
 excerpt: "<p>My wife and I are big fans of Project Runway. Not only do we like design and fashion, but it's also a fascinating inspection of culture. And we like to predict the winners and losers.</p><p>Each season, there's a designer who the judges almost kick off but keep around because they have \"a very specific point of view.\" And because of ratings, I'm sure. Viewers love a good tragedy.</p><p>One of my favorites was a Japanese guy named Kooan. He specialized in what I vainly attempt to describe as a caricature of California surf culture, Pokemon, and the worst of the 80s. He called it Japanese street wear. The judges didn't know what to call it.</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2015/01/14/novelty-isnt-creativity/"
 ---
 
 My wife and I are big fans of Project Runway. Not only do we like design and fashion, but it's also a fascinating inspection of culture. And we like to predict the winners and losers.

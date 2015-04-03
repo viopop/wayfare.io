@@ -2,6 +2,8 @@
 title: "A Local's Guide to Costa Mesa: Seaworth Coffee"
 author: "Caitlin Kraina"
 excerpt: "<p>The Wayfare co-working community loves its coffee. It is our fuel for productivity and an instrument for community. We are always interested in the opportunity to try out new local coffees, so today I'd like to introduce to you my favorite local cold brew: the Seaworth Single Fin Sludge.</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2015/02/05/local-guide-to-costa-mesa-seaworth-coffee/"
 ---
 
 The Wayfare co-working community loves its coffee. It is our fuel for productivity and an instrument for community. We are always interested in the opportunity to try out new local coffees, so today I'd like to introduce to you my favorite local cold brew: the Seaworth Single Fin Sludge.

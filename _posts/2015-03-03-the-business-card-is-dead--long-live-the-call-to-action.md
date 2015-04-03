@@ -2,6 +2,8 @@
 title: "The Business Card is Dead. Long Live the Call to Action."
 author: "Jeff Tanner"
 excerpt: "<p>I used to carry business cards&mdash;lots of them. I'd exchange them with people at conferences and during meeting introductions. Instead of actually communicating with each other again, though, I regret to say a lot of business card passing was just an outdated exercise in corporate traditionalism.</p><p>\"I might as well have just handed you a quarter, but instead, here's a reminder of my name and inflated title.\" Anything important or actionable was directly entered into our phones.</p><p>Ok, maybe I'm being too harsh on myself and those people who I never heard from again. Maybe not.</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2015/03/03/the-business-card-is-dead-long-live-the-call-to-action/"
 ---
 
 I used to carry business cards---lots of them. I'd exchange them with people at conferences and during meeting introductions. Instead of actually communicating with each other again, though, I regret to say a lot of business card passing was just an outdated exercise in corporate traditionalism.

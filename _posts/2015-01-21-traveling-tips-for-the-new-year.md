@@ -2,6 +2,8 @@
 title: "Traveling Tips for the New Year"
 author: "Jill Arbini"
 excerpt: "<p>Growing up I had the opportunity to go on many adventures, usually of the family road trip variety. All of my life our family car was a huge van and it wasn't until I was 12 that my parents got one with air conditioning. Even after SUVs and mini-vans became the standard for large families, they held tight to their affinity for the ginormous conversion van, which was a fairly popular choice in the 80s and early 90s, but has waned in recent decades. I don't think these vans are made for passenger travel anymore and unless you are a repair person or courier of some sort, you likely won't drive one. However, my parents loved the van so much that they kept theirs well after all four kids were out of the house.</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2015/01/21/traveling-tips-for-the-new-year/"
 ---
 
 Growing up I had the opportunity to go on many adventures, usually of the family road trip variety. All of my life our family car was a huge van and it wasn't until I was 12 that my parents got one with air conditioning. Even after SUVs and mini-vans became the standard for large families, they held tight to their affinity for the ginormous conversion van, which was a fairly popular choice in the 80s and early 90s, but has waned in recent decades. I don't think these vans are made for passenger travel anymore and unless you are a repair person or courier of some sort, you likely won't drive one. However, my parents loved the van so much that they kept theirs well after all four kids were out of the house.

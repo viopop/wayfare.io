@@ -2,6 +2,8 @@
 title: "Coffee and Sleep"
 author: "Chris Mann"
 excerpt: "<p>The greatest thing about working for Wayfare is that we get to help people help others. The not so great part is that when we want to sleep, our brains still want to work. It's obvious, but without sleep none of those incredible projects are going to get done.</p><p>So why aren't we sleeping? The exciting projects, of course. And coffee.</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2014/12/30/coffee-and-sleep/"
 ---
 
 The greatest thing about working for Wayfare is that we get to help people help others. The not so great part is that when we want to sleep, our brains still want to work. It's obvious, but without sleep none of those incredible projects are going to get done.

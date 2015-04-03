@@ -2,6 +2,8 @@
 title: "Taffy on Planes and Origami on Trains"
 author: "Jill Arbini"
 excerpt: "<p>I was recently on a plane with my three kids. We were flying to meet up with my husband, so I was outnumbered. The way the plane was set up, I sat in a row with my youngest, and my two oldest sat next to each other in the same row across the aisle from me. The plane had a particularly intense take-off and from across the aisle I heard a nervous voice call out, \"Mom, can I come sit by you?\"</p><p>I looked over to see my oldest had become a bit nervous with the intensity of the take-off. As I reached across the aisle to take his hand I said, \"Not right now buddy. You need to stay in your seat. But I'm here. You are safe. Nothing is wrong.\"</p><p>That is when I heard from the seat behind me...</p>"
+layout: "redirect"
+redirect_to: "http://blog.wayfare.io/2014/12/16/taffy-on-planes-and-origami-on-trains/"
 ---
 
 I was recently on a plane with my three kids. We were flying to meet up with my husband, so I was outnumbered. The way the plane was set up, I sat in a row with my youngest, and my two oldest sat next to each other in the same row across the aisle from me. The plane had a particularly intense take-off and from across the aisle I heard a nervous voice call out, "Mom, can I come sit by you?"
