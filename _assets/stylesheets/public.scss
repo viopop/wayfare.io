@@ -3,6 +3,11 @@
 @import "mixins";
 
 html, body { margin: 0; padding: 0; height: 100%; }
+a {
+  color: $light_purple; text-decoration: underline;
+  &:visited { color: $light_purple; }
+  &:hover, &:active { color: lighten($light_purple, 10%); }
+}
 body .row { padding-left: 0; padding-right: 0; margin-right: 0; margin-left: 0; }
 .backstretch { opacity: 0.2 }
 #wrapper { min-height: 100%; padding: 0; margin: 0 auto -140px; }
@@ -20,25 +25,43 @@ header {
   height: 400px;
   #logo {
     height: 100%; margin: 0; padding: 0;
-    a { display: block; margin: 0 auto; height: 100%; text-align: center; background: url(image-path('wf-logo.png')) no-repeat center center; background-size: 210px auto; }
+    a { display: block; margin: 0 auto; height: 100%; text-align: center; background-repeat: no-repeat; background-position: center center; }
     span { visibility: hidden; }
   }
-  &#home #logo a { background-size: 402px auto; }
-  &.content { height: 200px; padding-top: 25px; }
+  nav.util-nav {
+    position: absolute; top: 0; right: 15px; padding: 5px 15px; @include border_radius(0 0 4px 4px);
+    a { text-decoration: none; }
+  }
+  &.header-home {
+    #logo a { background-size: 500px auto; background-image: url(image-path('wf-logo.png')); }
+    #tagline { position: absolute; top: 55%; width: 100%; text-align: center; }
+    nav.util-nav { background: rgba(255,255,255,0.85); }
+  }
+  &.header-content {
+    height: 150px; padding-top: 25px; background: $dark_gray;
+    #logo a { background-image: url(image-path('wf-logo-white.png')); background-size: 300px auto; }
+    nav.util-nav {
+      background: $purple; color: #fff;
+      a {
+        color: #fff;
+        &:hover, &:active { text-decoration: underline; }
+      }
+    }
+  }
 }
 
 .nav-wrapper {
-  width: 100%; background: $dark_gray; text-align: center; border-bottom: 6px solid $purple; z-index: 9999;
+  width: 100%; background: $dark_gray; text-align: center; border: 1px solid #444; border-width: 1px 0; z-index: 9999;
   nav {
     a {
-      cursor: pointer; text-transform: uppercase; font-weight: bold; font-size: 15px; display: inline-block; padding: 20px 10px; text-decoration: none; color: #fff;
+      cursor: pointer; text-transform: uppercase; font-weight: bold; font-size: 15px; display: inline-block; padding: 15px 10px; text-decoration: none; color: #fff;
       &.active, &:hover { color: #fff; background: $purple; text-decoration: none; }
     }
     hr { margin: 0; padding: 0; border-color: $purple; }
   }
   &.nav-home { position: absolute; bottom: 0; left: 0; }
   &.fixed {
-    position: fixed; top: 0; left: 0; width: 100%; height: 63px;
+    position: fixed; top: 0; left: 0; width: 100%; height: 53px;
     &:hover { @extend .fixed; }
   }
 }
@@ -132,6 +155,7 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 
 footer {
   background: #333; border-top: 5px solid $orange; padding: 30px 0; color: #fff; text-align: center;
+  a, a:visited { color: #fff; text-decoration: underline; }
   h5 { font-size: 11px; text-transform: uppercase; margin-bottom: 15px; }
   ul.social-links {
     li { display: inline-block; margin-right: 10px; }

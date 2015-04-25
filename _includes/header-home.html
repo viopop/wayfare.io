@@ -1,28 +1,37 @@
-<header id="home">
+<header class="header-home">
+  <nav class="util-nav">
+    <a href="http://coworkers.wayfare.io">MEMBERS</a>
+    &bull;
+    <a href="http://wayfare.perkhub.com">PERKS</a>
+  </nav>
   <h1 id="logo">
     <a href="/">
       <span>Wayfare</span>
     </a>
+    <h2 id="tagline">
+      Let's pursue the world's best future together.
+    </h2>
   </h1>
 </header>
 {% include nav-home.html %}
 
 <script type="text/javascript">
   $(function() {
-    $("header").backstretch(["{{ 'space/interior-3.jpg' | asset_path }}",
-                             "{{ 'space/interior-1.jpg' | asset_path }}",
-                             "{{ 'space/interior-4.jpg' | asset_path }}",
-                             "{{ 'space/exterior-1.jpg' | asset_path }}",
-                             "{{ 'space/interior-5.jpg' | asset_path }}",
-                             "{{ 'space/interior-6.jpg' | asset_path }}",
-                             "{{ 'space/interior-7.jpg' | asset_path }}",
-                             "{{ 'space/interior-8.jpg' | asset_path }}",
-                             "{{ 'space/interior-9.jpg' | asset_path }}",
-                             "{{ 'space/interior-10.jpg' | asset_path }}"], {duration: 3000, fade: 750});
+    $(".header-home").backstretch(["{{ 'space/interior-3.jpg' | asset_path }}",
+                                  "{{ 'space/interior-1.jpg' | asset_path }}",
+                                  "{{ 'space/interior-4.jpg' | asset_path }}",
+                                  "{{ 'space/exterior-1.jpg' | asset_path }}",
+                                  "{{ 'space/interior-5.jpg' | asset_path }}",
+                                  "{{ 'space/interior-6.jpg' | asset_path }}",
+                                  "{{ 'space/interior-7.jpg' | asset_path }}",
+                                  "{{ 'space/interior-8.jpg' | asset_path }}",
+                                  "{{ 'space/interior-9.jpg' | asset_path }}",
+                                  "{{ 'space/interior-10.jpg' | asset_path }}"],
+                                 {duration: 3000, fade: 750});
   });
 </script>
 <script>
-  var header = $('header');
+  var header = $('.header-home');
   var logo = $('#logo');
   var nav = $('.nav-home');
   var navHeight = nav.height();
