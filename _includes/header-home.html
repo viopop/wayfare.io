@@ -9,7 +9,7 @@
       <span>Wayfare</span>
     </a>
     <h2 id="tagline">
-      Let's pursue the world's best future together.
+      Let&rsquo;s pursue the world&rsquo;s best future together.
     </h2>
   </h1>
 </header>
@@ -31,21 +31,21 @@
   });
 </script>
 <script>
-  var header = $('.header-home');
-  var logo = $('#logo');
-  var nav = $('.nav-home');
-  var navHeight = nav.height();
-  var windowHeight = $(window).height();
-
-  header.css('height', windowHeight);
-  logo.css('height', (windowHeight - navHeight));
-
-  $(window).scroll(function() {
+  var positionLogo = function() {
+    $('.header-home').css('height', $(window).height());
+    $('#logo').css('height', ($(window).height() - $('.nav-home').height()));
+    $('#tagline').css('top', ($('#logo').height() / 2) + 20);
+  };
+  positionLogo();
+  $(window).resize(positionLogo);
+  var positionNav = function() {
     var scrollPosition = $(window).scrollTop();
-    if (scrollPosition > (windowHeight - navHeight)) {
-      nav.addClass('fixed');
+    if (scrollPosition > ($(window).height() - $('.nav-home').height())) {
+      $('.nav-home').addClass('fixed');
     } else {
-      nav.removeClass('fixed');
+      $('.nav-home').removeClass('fixed');
     }
-  });
+  };
+  positionNav();
+  $(window).scroll(positionNav);
 </script>
