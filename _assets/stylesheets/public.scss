@@ -18,7 +18,6 @@ body.layout-variant-padding, body#layout-post {
   #wrapper { margin-bottom: -160px; }
   #push { height: 160px; }
 }
-
 .full-width { width: 100%; }
 
 header {
@@ -34,7 +33,7 @@ header {
   }
   &.header-home {
     #logo a { background-size: 500px auto; background-image: url(image-path('wf-logo.png')); }
-    #tagline { position: absolute; top: 55%; width: 100%; text-align: center; }
+    #tagline { position: absolute; top: 52%; width: 100%; text-align: center; }
     nav.util-nav { background: rgba(255,255,255,0.85); }
   }
   &.header-content {
@@ -143,14 +142,18 @@ h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transfor
 }
 
 .wf-map {
-  padding-bottom: 0;
+  padding-bottom: 0; padding-top: 0; margin-top: 0;
   #map { height: 300px; width: 100%; }
 }
 
-#gift-guide {
+#gift-directory {
   font-size: 1.1em;
   .panel { margin-top: 25px; }
   li { font-size: 1.1em; }
+}
+
+.newsletter-signup {
+  background: #f5f5f5; padding: 20px 20px 0; margin-top: 40px; border: 1px solid #ccc; border-width: 1px 0;
 }
 
 footer {
