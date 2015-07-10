@@ -68,7 +68,9 @@ header {
 .wf-block {
   padding-top: 40px; padding-bottom: 40px; margin-top: 40px;
   &.wf-header a { color: white; text-decoration: underline; }
-  .feature-list { padding-left: 5px; }
+  .feature-list {
+    li { margin: 5px auto; padding: 10px; border: 1px solid #eee; background: #f5f5f5; @include border_radius(4px); }
+  }
 }
 .block-title { text-transform: uppercase; color: $dark_gray; font-size: 22px; font-weight: bold; margin: 0 0 40px 0; padding: 0 20px; text-align: center; }
 h2.block-title { font-size: 16px; color: #999; margin: 0 0 40px 0; text-transform: none; font-weight: normal; line-height: normal; }
