@@ -14,20 +14,21 @@ a {
 .backstretch { opacity: 0.2 }
 
 nav {
-  background: $dark-gray;
   ul { margin: 0; }
   .list-inline > li { padding: 0; }
   a {
-    color: #fff; text-transform: uppercase; display: inline-block; padding: 10px; border: 0;
-    &.active, &:hover { color: #fff; background-color: $purple; border: 0; }
+    text-transform: uppercase; display: inline-block; padding: 10px;
   }
-  .home-link {
-    margin-right: 20px;
-    img { width: 24px; }
-  }
-  &.util-nav {
-    position: absolute; top: 0; right: 15px; padding: 5px 15px; @include border_radius(0 0 4px 4px);
-    a { text-decoration: none; }
+  &.main {
+    background: $dark-gray;
+    a {
+      color: #fff; border: 0;
+      &.active, &:hover { color: #fff; background-color: $purple; border: 0; }
+    }
+    .home-link {
+      margin-right: 20px;
+      img { width: 24px; }
+    }
   }
 }
 .mobile-nav nav {
@@ -35,6 +36,10 @@ nav {
     padding: 10px 15px; margin-right: 0; text-align: center;
     img { width: 32px; }
   }
+}
+@media #{$xs} {
+  nav.util { display: none; }
+  .mobile-nav nav.util { display: block; }
 }
 header.page {
   .home-link { display: none; }
@@ -50,6 +55,10 @@ header.page {
     .home-link { display: inline-block; }
     .header-logo { margin-bottom: 0; background: $dark-gray; }
     .big-slide-link { color: white; }
+  }
+  nav.util {
+    position: absolute; top: 40px; right: 15px; padding: 5px 15px; background: #fff; @include border_radius(0 0 4px 4px);
+    a { text-decoration: none; padding: 0; }
   }
 }
 .content {

@@ -12,4 +12,11 @@ $big-slide-width: 15.625em;
       &:hover { border-bottom: 0; background: $dark-gray; }
     }
   }
+  nav.util {
+    position: static;
+    ul {
+      top: auto; bottom: 0;
+      li { border-width: 1px 0 0; }
+    }
+  }
 }
