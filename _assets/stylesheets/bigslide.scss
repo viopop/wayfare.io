@@ -3,7 +3,7 @@ footer .big-slide-link { font-size: 16px; }
 
 $big-slide-width: 15.625em;
 .big-slide-panel {
-  position: fixed;  z-index: 10001; right: -$big-slide-width; width: $big-slide-width; background-color: darken($dark-gray, 30%);
+  position: fixed; z-index: 10001; right: -$big-slide-width; width: $big-slide-width; background-color: darken($dark-gray, 30%);
   ul { position: absolute; right: 0; top: 0; width: $big-slide-width; }
   li {
     display: block; text-align: left; border: 1px solid $dark-gray; border-width: 0 0 1px; padding: 0;

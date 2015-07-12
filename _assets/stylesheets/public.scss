@@ -38,13 +38,19 @@ nav {
 }
 header.page {
   .home-link { display: none; }
+  .header-logo { border-bottom: 1px solid $dark-gray; padding: 10px 0; margin-bottom: 20px; background: $off-white; }
+  .logo {
+    position: relative;
+    img { width: 80%; max-width: 400px; }
+  }
   .header-fixed {
     position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; background-color: $dark-gray; opacity: 0;
     @include transition(opacity 0.3s linear); visibility: hidden;
-    .home-link { display: inline-block; }
     &.affix { visibility: visible; opacity: 1; }
+    .home-link { display: inline-block; }
+    .header-logo { margin-bottom: 0; background: $dark-gray; }
+    .big-slide-link { color: white; }
   }
-  .header-logo { border-bottom: 1px solid $dark-gray; padding: 10px 0; margin-bottom: 20px; background: $off-white; }
 }
 .content {
   section {
