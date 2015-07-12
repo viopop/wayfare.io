@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>http://wayfare.io/</loc>
+    <lastmod>2015-07-12T07:17:01+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://wayfare.io/workspace</loc>
+    <lastmod>2015-07-12T05:35:48+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://wayfare.io/events</loc>
+    <lastmod>2015-07-11T17:48:24+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://wayfare.io/startups</loc>
+    <lastmod>2015-07-11T20:57:53+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://wayfare.io/gift-directory</loc>
+    <lastmod>2015-07-11T21:58:32+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://wayfare.io/contact</loc>
+    <lastmod>2015-07-12T05:33:36+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+</urlset>

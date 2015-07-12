@@ -1,0 +1,139 @@
+@import "base";
+
+h1, h2, h3, h4, h5, h6 { color: $color1; font-family: $headline-font; }
+a {
+  color: $link-color; border-bottom: 1px dotted rgba(200,200,200,0.8); text-decoration: none; cursor: pointer;
+  &:hover { color: lighten($link-color, 10%); border-bottom: 1px dotted lighten($link-color, 10%); text-decoration: none; }
+  &.no-underline {
+    border-bottom: 0; text-decoration: none;
+    &:hover { border-bottom: 0; text-decoration: none; }
+  }
+}
+
+.page { position: relative; }
+.backstretch { opacity: 0.2 }
+
+nav {
+  ul { margin: 0; }
+  .list-inline > li { padding: 0; }
+  a {
+    text-transform: uppercase; display: inline-block; padding: 10px;
+  }
+  &.main {
+    background: $dark-gray;
+    a {
+      color: #fff; border: 0;
+      &.active, &:hover { color: #fff; background-color: $purple; border: 0; }
+    }
+    .home-link {
+      margin-right: 20px;
+      img { width: 24px; }
+    }
+  }
+}
+.mobile-nav nav {
+  li.home-link {
+    padding: 10px 15px; margin-right: 0; text-align: center;
+    img { width: 32px; }
+  }
+}
+@media #{$xs} {
+  nav.util { display: none; }
+  .mobile-nav nav.util { display: block; }
+}
+header.page {
+  .home-link { display: none; }
+  .header-logo { border-bottom: 1px solid $dark-gray; padding: 10px 0; margin-bottom: 20px; background: $off-white; }
+  .logo {
+    position: relative;
+    img { width: 80%; max-width: 400px; }
+  }
+  .header-fixed {
+    position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; background-color: $dark-gray; opacity: 0;
+    @include transition(opacity 0.3s linear); visibility: hidden;
+    &.affix { visibility: visible; opacity: 1; }
+    .home-link { display: inline-block; }
+    .header-logo { margin-bottom: 0; background: $dark-gray; }
+    .big-slide-link { color: white; }
+  }
+  nav.util {
+    position: absolute; top: 40px; right: 15px; padding: 5px 15px; background: #fff; @include border_radius(0 0 4px 4px);
+    a { text-decoration: none; padding: 0; }
+  }
+}
+.content {
+  section {
+    padding-bottom: 15px;
+    &:last-child { border-width: 0; }
+  }
+}
+footer.page {
+  text-align: center; text-transform: uppercase; background-color: $footer-color; color: white;
+  a {
+    color: #fff; text-decoration: none;
+    &:hover { color: darken(white, 10%); }
+  }
+  ul.social-links {
+    li { display: inline-block; margin-right: 10px; }
+    a {
+      display: block; width: 23px; height: 23px; background-size: 100%;
+      &.instagram { background: url('/assets/images/instagram.png') no-repeat center center; }
+      &.twitter { background: url('/assets/images/twitter.png') no-repeat center center; }
+      &.facebook { background: url('/assets/images/facebook.png') no-repeat center center; }
+    }
+  }
+}
+
+button[disabled='disabled'] {
+  opacity: 0.5;
+  &:hover { cursor: not-allowed; }
+}
+
+form {
+  input.ng-invalid, textarea.ng-invalid { color: $brown; }
+  .form-control { display: block; margin: 3px 0 15px; }
+  label { font-size: 12px; font-weight: bold; display: block; }
+  .flash { padding: 5px; margin-bottom: 15px; @include border-radius(3px); }
+}
+
+.newsletter-signup {
+  background: #f5f5f5; padding: 20px 20px 0; border: 1px solid #ccc; border-width: 1px 0;
+}
+
+.footer-map {
+  margin-bottom: 110px;
+  #map { height: 300px; width: 100%; }
+}
+
+.fotorama-wayfare {
+  margin: 20px auto; border: 4px solid #333;
+  .fotorama__stage { background: #333; }
+  .fotorama__nav--thumbs { background: #333; }
+  .fotorama__thumb-border { border-color: #428bca; }
+  .fotorama__nav--dots { background: #333; }
+}
+
+.instagram-photos .photo {
+  padding: 3px; margin: 5px; background: #eee; float: left;
+  img { width: 120px; }
+}
+
+.features-list {
+  margin-bottom: 30px;
+  ul { margin: 0; padding: 0; }
+  li { list-style: none; float: left; width: calc(50% - 10px); margin: 5px 10px 5px 0; padding: 10px; border: 1px solid #eee; background: #f5f5f5; @include border_radius(4px); }
+}
+@media #{$xs} {
+  .features-list li { width: 100%; margin: 5px 0; }
+}
+
+.gift-guide {
+  margin-bottom: 30px;
+  ul { margin: 0 0 0 16px; padding: 0; }
+  li {
+    color: darken($light-gray, 20%);
+    strong { color: $dark-gray; }
+  }
+}
+
+.wufoo-form { border: 1px solid $light-gray; padding: 10px 10px 0; @include border-radius(4px); }

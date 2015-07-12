@@ -1,0 +1,15 @@
+@import "base";
+
+header.page {
+  .header-home {
+    color: white; height: 500px; background-size: cover; margin-bottom: 20px; position: relative;
+    h1 { font-size: 44px; position: absolute; text-align: center; padding: 0 15px; }
+    .jump-down {
+      width: 48px; height: 48px; position: absolute; left: calc(50% - 24px); bottom: 20px;
+      .fa { font-size: 48px; opacity: 0.4; }
+      &:hover .fa { opacity: 0.8; }
+    }
+  }
+}
+
+#about { font-size: 1.5em; }
