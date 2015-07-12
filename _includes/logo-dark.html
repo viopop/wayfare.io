@@ -1,0 +1,7 @@
+{% if meta.logo_link != "false" %}
+  <a href="{{meta.logo_link | fallback:'/'}}" class="no-underline">
+{% endif %}
+  <img src="/assets/images/logo-dark.png" alt="{{site.title}}" width="{{meta.logo_width | fallback:'300'}}">
+{% if meta.logo_link %}
+  </a>
+{% endif %}

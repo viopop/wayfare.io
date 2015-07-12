@@ -1,8 +1,8 @@
 source "https://rubygems.org"
-gem 'jekyll'
-gem 'jekyll-assets'
-gem 'sass'
+
+gem 'guard'
+gem 'guard-copy'
+gem 'guard-sass'
+gem 'guard-sprockets'
 gem 'uglifier'
-gem 'bourbon'
-gem 'neat'
-gem 'bitters'
+gem 'siteleaf'

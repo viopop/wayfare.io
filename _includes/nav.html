@@ -1,0 +1,12 @@
+<nav role="navigation">
+  <ul class="list-unstyled list-inline">
+    <li class="home-link"><img src="/assets/images/icon-filled-light.png"></li>
+    <li><a href="/">About</a></li>
+    <li><a href="/workspace" {% if slug == "workspace" %} class="active"{% endif %}>Workspace</a></li>
+    <li><a href="/events" {% if slug == "events" %} class="active"{% endif %}>Events</a></li>
+    <li><a href="/startups" {% if slug == "startups" %} class="active"{% endif %}>Startups</a></li>
+    <li><a href="http://blog.wayfare.io">Blog</a></li>
+    <li><a href="/gift-directory" {% if slug == "gift-directory" %} class="active"{% endif %}>Gifts</a></li>
+    <li><a href="/contact" {% if slug == "contact" %} class="active"{% endif %}>Contact</a></li>
+  </ul>
+</nav>

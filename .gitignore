@@ -1,5 +1,4 @@
 .DS_Store
-.zenflow
-.zenflow-log
 .sass-cache
-_site/
+config.ru
+tmp
