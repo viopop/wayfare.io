@@ -1,0 +1,26 @@
+@import "colors";
+@import "fonts";
+@import "functions";
+
+.wufoo {
+  .info { display: none; }
+  .info, .section {
+    border: 0;
+    h1, h2, h3, h4, h5, h6 { font-family: $headline-font; }
+    h1 { font-size: 36px; }
+    h2 { font-size: 30px; }
+    h3 { font-size: 24px; }
+    h4 { font-size: 18px; }
+    h5 { font-size: 15px; }
+    h6 { font-size: 12px; }
+  }
+  .buttons input.btTxt {
+    background: $off-white; border: 1px solid $dark-gray; padding: 5px 10px; @include border-radius(4px); cursor: pointer;
+    &:hover { background: $dark-gray; color: #fff; }
+  }
+  input.text, input.search, textarea.textarea {
+    border: 1px solid $light-gray; border-top-width: 0;
+    &:focus { border: 1px solid $dark-gray; }
+  }
+  li.focused { background-color: $off-white; }
+}

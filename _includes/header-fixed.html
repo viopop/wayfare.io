@@ -1,0 +1,25 @@
+<div class="header-fixed" data-spy="affix" data-offset-top="20">
+  <div class="hidden-xs text-center">
+    {% if home? %}
+      {% include 'includes/nav-home' %}
+    {% else %}
+      {% include 'includes/nav' %}
+    {% endif %}
+  </div>
+  <div class="header-logo visible-xs-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="logo text-center">
+            {% include 'includes/logo-light' %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="visible-xs-block">
+    <a href="#big-slide-panel" class="big-slide-link no-underline">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>

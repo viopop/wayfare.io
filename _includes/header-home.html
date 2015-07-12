@@ -1,51 +1,41 @@
-<header class="header-home">
-  <nav class="util-nav">
-    <a href="http://coworkers.wayfare.io">MEMBERS</a>
-    &bull;
-    <a href="http://wayfare.perkhub.com">PERKS</a>
-  </nav>
-  <h1 id="logo">
-    <a href="/">
-      <span>Wayfare</span>
-    </a>
-    <h2 id="tagline">
-      Let&rsquo;s pursue the world&rsquo;s best future together.
-    </h2>
-  </h1>
-</header>
-{% include nav-home.html %}
+<div class="header-home">
+  <div class="header-home-nav hidden-xs">
+    <div class="text-center">
+      {% include 'includes/nav-home' %}
+    </div>
+  </div>
+  <div class="logo">
+    {% include 'includes/logo' %}
+  </div>
+  <h1>{{meta.slogan | markdown}}</h1>
+  <a class="jump-down no-underline">
+    <i class="fa fa-chevron-circle-down" data-scroll-to="#about" data-scroll-offset="-50"></i>
+  </a>
+  <a href="#big-slide-panel" class="big-slide-link no-underline visible-xs-block">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 <script type="text/javascript">
   $(function() {
-    $(".header-home").backstretch(["{{ 'space/interior-3.jpg' | asset_path }}",
-                                  "{{ 'space/interior-1.jpg' | asset_path }}",
-                                  "{{ 'space/interior-4.jpg' | asset_path }}",
-                                  "{{ 'space/exterior-1.jpg' | asset_path }}",
-                                  "{{ 'space/interior-5.jpg' | asset_path }}",
-                                  "{{ 'space/interior-6.jpg' | asset_path }}",
-                                  "{{ 'space/interior-7.jpg' | asset_path }}",
-                                  "{{ 'space/interior-8.jpg' | asset_path }}",
-                                  "{{ 'space/interior-9.jpg' | asset_path }}",
-                                  "{{ 'space/interior-10.jpg' | asset_path }}"],
-                                 {duration: 3000, fade: 750});
+    $(".header-home").backstretch([
+      {% for asset in assets %}
+        "{{asset.url}}",
+      {% endfor %}
+    ], {duration: 3000, fade: 750});
   });
-</script>
-<script>
   var positionLogo = function() {
-    $('.header-home').css('height', $(window).height());
-    $('#logo').css('height', ($(window).height() - $('.nav-home').height()));
-    $('#tagline').css('top', ($('#logo').height() / 2) + 20);
+    var headerHeight = Math.max($(window).height()*0.75, 500);
+    $('.header-home').css('height', headerHeight);
+    $('.header-home .logo').css({'position': 'absolute',
+                                 'top': headerHeight*0.3,
+                                 'left': ($('.header-home').width()/2) - ($('.header-home .logo img').width()/2)});
+    $('.header-home h1').css({'position': 'absolute',
+                              'top': ($('.header-home .logo').offset().top + $('.header-home .logo img').height() + 10),
+                              'left': 0,
+                              'width': $(window).width()});
   };
   positionLogo();
+  setTimeout(positionLogo, 1000);
   $(window).resize(positionLogo);
-  var positionNav = function() {
-    var scrollPosition = $(window).scrollTop();
-    if (scrollPosition > ($(window).height() - $('.nav-home').height())) {
-      $('.nav-home').addClass('fixed');
-    } else {
-      $('.nav-home').removeClass('fixed');
-    }
-  };
-  positionNav();
-  $(window).scroll(positionNav);
 </script>
