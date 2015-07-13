@@ -1,18 +1,20 @@
 {% capture content %}
-  <div class="content container {% if meta.include_map %}with-map{% endif %}">
-    <div class="row">
-      {% if meta.sidebar %}
-        <section class="col-sm-8">
-          {{body}}
-        </section>
-        <aside class="col-sm-4 sidebar">
-          {{meta.sidebar | markdown}}
-        </aside>
-      {% else %}
-        <section class="col-xs-12">
-          {{body}}
-        </section>
-      {% endif %}
+  <div class="content {% if meta.include_map %}with-map{% endif %}">
+    <div class="container">
+      <div class="row">
+        {% if meta.sidebar %}
+          <section class="col-sm-8">
+            {{body}}
+          </section>
+          <aside class="col-sm-4 sidebar">
+            {{meta.sidebar | markdown}}
+          </aside>
+        {% else %}
+          <section class="col-xs-12">
+            {{body}}
+          </section>
+        {% endif %}
+      </div>
     </div>
   </div>
 {% endcapture %}
