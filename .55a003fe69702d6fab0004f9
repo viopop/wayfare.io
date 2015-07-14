@@ -1,5 +1,5 @@
 ---
-time: 1436898626
+time: 1436898967
 inventory:
   "/about/index.html":
     md5: 57e5887c37c3772f474e3f3d184eb79f
@@ -50,8 +50,17 @@ inventory:
     md5: dcc612541566db3e3bb2d477a496e2c2
     time: 1436805498
   "/deals/pirate-coast/index.html":
-    md5: fcc5ce864ed121460b6607c357cb9238
-    time: 1436898624
+    md5: 8d88179933ba2fbdf875a4afb1ce983a
+    time: 1436898964
+  "/deals/pirate-coast/coupon/index.html":
+    md5: e6074d19449dc2262cced9ce090f6dae
+    time: 1436898964
+  "/deals/pirate-coast/archive/index.html":
+    md5: e50a06d34d846f1e99b4fce1d9636a9c
+    time: 1436898964
+  "/deals/pirate-coast/tags/index.html":
+    md5: 8e7f502528a5079b08f0d0db60c5256f
+    time: 1436898964
   "/CNAME":
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
@@ -59,8 +68,8 @@ inventory:
     md5: f4d98050a364aa8aedd8f1bb90e5646c
     time: 1436826033
   "/feed.xml":
-    md5: 6a1f30e3189e4334b3b903ac482a05de
-    time: 1436898624
+    md5: cc440ec3dcd58d76c384ca178298f0c5
+    time: 1436898964
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
@@ -283,6 +292,12 @@ inventory:
   "/assets/pirate coast perkhub coupon.jpg":
     md5: ef488bee621ca7e1be36dee1dfcfc689
     time: 1436898625
+  "/assets/pirate coast perkhub coupon-1.jpg":
+    md5: ef488bee621ca7e1be36dee1dfcfc689
+    time: 1436898964
+  "/assets/pirate coast perkhub coupon-2.jpg":
+    md5: ef488bee621ca7e1be36dee1dfcfc689
+    time: 1436898964
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
