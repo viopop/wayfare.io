@@ -1,12 +1,12 @@
 ---
-time: 1436898967
+time: 1437173725
 inventory:
   "/about/index.html":
-    md5: 57e5887c37c3772f474e3f3d184eb79f
-    time: 1436826030
+    md5: 64ad507bfe725ea985aefebb3269bf7b
+    time: 1437173722
   "/index.html":
-    md5: 57e5887c37c3772f474e3f3d184eb79f
-    time: 1436826030
+    md5: 64ad507bfe725ea985aefebb3269bf7b
+    time: 1437173722
   "/workspace/index.html":
     md5: 407766e815cbbc01f3bf8dfc64067c29
     time: 1436688824
@@ -52,24 +52,15 @@ inventory:
   "/deals/pirate-coast/index.html":
     md5: 8d88179933ba2fbdf875a4afb1ce983a
     time: 1436898964
-  "/deals/pirate-coast/coupon/index.html":
-    md5: e6074d19449dc2262cced9ce090f6dae
-    time: 1436898964
-  "/deals/pirate-coast/archive/index.html":
-    md5: e50a06d34d846f1e99b4fce1d9636a9c
-    time: 1436898964
-  "/deals/pirate-coast/tags/index.html":
-    md5: 8e7f502528a5079b08f0d0db60c5256f
-    time: 1436898964
   "/CNAME":
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: f4d98050a364aa8aedd8f1bb90e5646c
-    time: 1436826033
+    md5: 40fdaabcd3cbf469d152545a7e80cb48
+    time: 1437173724
   "/feed.xml":
-    md5: cc440ec3dcd58d76c384ca178298f0c5
-    time: 1436898964
+    md5: 9c6eb93a26b97926d7c4a350df203453
+    time: 1437173724
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
