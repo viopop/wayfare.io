@@ -1,5 +1,5 @@
 ---
-time: 1437584345
+time: 1438385804
 inventory:
   "/about/index.html":
     md5: 64ad507bfe725ea985aefebb3269bf7b
@@ -11,17 +11,8 @@ inventory:
     md5: 407766e815cbbc01f3bf8dfc64067c29
     time: 1436688824
   "/events/index.html":
-    md5: f77930e5162cd891dab5951ed0140d60
-    time: 1437173749
-  "/events/kakalligraphy-beginner-copperplate-workshop/index.html":
-    md5: e4ad0b24a8e27aece1e2c0a2f512ae93
-    time: 1437584341
-  "/events/archive/index.html":
-    md5: 9c23a46dc37b90ab49e21c10463631be
-    time: 1437584341
-  "/events/tags/index.html":
-    md5: 8e7f502528a5079b08f0d0db60c5256f
-    time: 1437584341
+    md5: 8c09b7e62ca13929c663b7d4111a7c1d
+    time: 1438385799
   "/startups/index.html":
     md5: 9883d51be8892c4ef5326231a72eac55
     time: 1436805497
@@ -52,6 +43,12 @@ inventory:
   "/events/poppyjack-calligraphy-for-beginners-2015-08-22/index.html":
     md5: 503039b4e5f6a215d6ecec05f62a6149
     time: 1436805498
+  "/events/kakalligraphy-beginner-copperplate-workshop-1/index.html":
+    md5: 6c0dad9f1b8917c53cc91443b1f4dbd0
+    time: 1438385800
+  "/events/kakalligraphy-intermediate-copperplate-workshop/index.html":
+    md5: 38f3f9a424f9c3c64c3ab16d68eee98c
+    time: 1438385801
   "/gift-directory/left-column/index.html":
     md5: 48adff326aa09395e7e6422ce63ec4f6
     time: 1436805498
@@ -65,11 +62,11 @@ inventory:
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: 0fb700b947ed2ea9ab3f00dc6b189a14
-    time: 1437584342
+    md5: b6be0ed35315838ecaf2075d24e77727
+    time: 1438385801
   "/feed.xml":
-    md5: c4429dd7f1f3c78ac6f617bcc361aeae
-    time: 1437584342
+    md5: 8fb170b05f65ee926d5a2c902d01198e
+    time: 1438385801
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
@@ -301,6 +298,12 @@ inventory:
   "/assets/IMG_4272.JPG":
     md5: d9c4ddca4e357f9f4964d233aedeee68
     time: 1437584342
+  "/assets/kakalligraphy website.png":
+    md5: 87d144b2a5c9a82244c98125553cddec
+    time: 1438385801
+  "/assets/kakalligraphy website-1.png":
+    md5: 87d144b2a5c9a82244c98125553cddec
+    time: 1438385801
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
