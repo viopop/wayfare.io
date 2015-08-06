@@ -1,5 +1,5 @@
 ---
-time: 1438877018
+time: 1438878070
 inventory:
   "/about/index.html":
     md5: 0d04779c4fade3359c609d81c83798a5
@@ -8,14 +8,14 @@ inventory:
     md5: 0d04779c4fade3359c609d81c83798a5
     time: 1438392104
   "/workspace/index.html":
-    md5: d699f8072b25c77489a30170086b197a
-    time: 1438392104
+    md5: c24186d05e8c35f5bc61434916971628
+    time: 1438878065
   "/events/index.html":
     md5: e132775fcc01f5e0f538989647fed9b1
     time: 1438877015
   "/startups/index.html":
-    md5: 99e756ef8153aad31d4a25c89b532f77
-    time: 1438390582
+    md5: 8790f2c1667dd641a697333697dfe3ec
+    time: 1438878065
   "/gift-directory/index.html":
     md5: 844315b12c3ba1eed4c2e1789930a0ba
     time: 1436688824
@@ -37,6 +37,18 @@ inventory:
   "/workspace/dedicated-desk/index.html":
     md5: d5045276c0fd8f20521baa4c06b56a5c
     time: 1436805498
+  "/workspace/mailbox/index.html":
+    md5: e80aee0ef19763a0c8674d069be9c099
+    time: 1438878066
+  "/workspace/dedicated-office/index.html":
+    md5: 2996b37773d2a55dbaee569cd495aaed
+    time: 1438878066
+  "/workspace/dedicated-office-5-member/index.html":
+    md5: 9cd37f32c0dffdb9b9f06efeae0d3812
+    time: 1438878066
+  "/workspace/custom/index.html":
+    md5: 880bd3acd6e856b14a9f44d77b0aa04b
+    time: 1438878066
   "/events/poppyjack-calligraphy-for-beginners-2015-08-22/index.html":
     md5: 503039b4e5f6a215d6ecec05f62a6149
     time: 1436805498
@@ -62,11 +74,11 @@ inventory:
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: b59b18f51ef641c96e5c62d1c649a9bc
-    time: 1438392106
+    md5: 8d3ac8cc00431c70ff02076eeb17634c
+    time: 1438878067
   "/feed.xml":
-    md5: 3c9a3d93ea2fdebd623ac8b4f5b5f687
-    time: 1438877016
+    md5: 3cd5f8f697b9fe37391c82a16fcd260c
+    time: 1438878067
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
