@@ -1,12 +1,12 @@
 ---
-time: 1438891479
+time: 1438891906
 inventory:
   "/about/index.html":
-    md5: 75d0bc1c07598ad64a61f64209584fd0
-    time: 1438879462
+    md5: ea33f17f60e2c5b9020b9773c5ebc1d6
+    time: 1438891894
   "/index.html":
-    md5: 75d0bc1c07598ad64a61f64209584fd0
-    time: 1438879462
+    md5: ea33f17f60e2c5b9020b9773c5ebc1d6
+    time: 1438891894
   "/workspace/index.html":
     md5: e4c2701c09d158240e7f968228a5fb81
     time: 1438891473
@@ -107,11 +107,11 @@ inventory:
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: cf10bc90db514a13563a307971426bf6
-    time: 1438879674
+    md5: c89a3a1f81b522deb4142a38b485eb50
+    time: 1438891905
   "/feed.xml":
-    md5: 2354e1183e79dd8e0b213cdba104768d
-    time: 1438891477
+    md5: c8e9021215a8a6855d0f78c496b42913
+    time: 1438891905
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
