@@ -1,5 +1,5 @@
 ---
-time: 1438890887
+time: 1438890952
 inventory:
   "/about/index.html":
     md5: 75d0bc1c07598ad64a61f64209584fd0
@@ -8,8 +8,8 @@ inventory:
     md5: 75d0bc1c07598ad64a61f64209584fd0
     time: 1438879462
   "/workspace/index.html":
-    md5: c49d6aba6df904def9834a85f9c1e3b2
-    time: 1438879580
+    md5: b496dd5a23e75c62e1844791392d2c04
+    time: 1438890948
   "/events/index.html":
     md5: 024ead51e4e65c2227b623d96ead16ac
     time: 1438890883
@@ -38,8 +38,8 @@ inventory:
     md5: d5045276c0fd8f20521baa4c06b56a5c
     time: 1436805498
   "/workspace/mailbox/index.html":
-    md5: e80aee0ef19763a0c8674d069be9c099
-    time: 1438878066
+    md5: 00a8f114db93daa270b2d3e0b5a97bae
+    time: 1438890949
   "/workspace/dedicated-office/index.html":
     md5: c927b0a76b0c79fd6894fd159983f623
     time: 1438879463
@@ -110,8 +110,8 @@ inventory:
     md5: cf10bc90db514a13563a307971426bf6
     time: 1438879674
   "/feed.xml":
-    md5: 4dfd74cc556246e2db655ce25561519f
-    time: 1438890886
+    md5: 7700d4eb0b59a9e71d03c7b23426773a
+    time: 1438890950
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
