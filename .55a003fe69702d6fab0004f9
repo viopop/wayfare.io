@@ -1,5 +1,5 @@
 ---
-time: 1439435850
+time: 1439453134
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -217,9 +217,6 @@ inventory:
   "/_assets/stylesheets/colors.scss":
     md5: 9f632e0e56fa722a24361c440176052a
     time: 1436688827
-  "/_assets/stylesheets/fonts.scss":
-    md5: 943e37d2e9c855576fc49ca58d9fc454
-    time: 1436688827
   "/_assets/stylesheets/fotorama/fotorama.scss":
     md5: 91860b47bbfce79eeb62bac1851d52c4
     time: 1436688827
@@ -364,6 +361,12 @@ inventory:
   "/assets/Data Viz 101.png":
     md5: 8f35d4c45890a7eab22813a56b639282
     time: 1439435848
+  "/_assets/stylesheets/fonts.scss":
+    md5: 3bc652e528f9785a96c3f1d78180c216
+    time: 1439453133
+  "/tmp/restart.txt":
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    time: 1439453133
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
