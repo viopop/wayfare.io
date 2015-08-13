@@ -1,5 +1,5 @@
 ---
-time: 1438974832
+time: 1439435850
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -11,8 +11,8 @@ inventory:
     md5: e4c2701c09d158240e7f968228a5fb81
     time: 1438891473
   "/events/index.html":
-    md5: eeab89ada107e802f3d7793cf683f09c
-    time: 1438974820
+    md5: 30d749141cc7ca93a3e557357d3b8547
+    time: 1439435845
   "/startups/index.html":
     md5: 8790f2c1667dd641a697333697dfe3ec
     time: 1438878065
@@ -97,6 +97,9 @@ inventory:
   "/events/depressed-cake-shop-pop-up-shop-and-baked-good/index.html":
     md5: 9ddd6b9624f0468ef8e337233b3257ee
     time: 1438974829
+  "/events/data-viz-101/index.html":
+    md5: 60e4f1fc0ff8081f1cabfd34ce54fa58
+    time: 1439435847
   "/gift-directory/left-column/index.html":
     md5: 48adff326aa09395e7e6422ce63ec4f6
     time: 1436805498
@@ -113,8 +116,8 @@ inventory:
     md5: c89a3a1f81b522deb4142a38b485eb50
     time: 1438891905
   "/feed.xml":
-    md5: 32464a37aa0fa1afcc79fafbe48ad08b
-    time: 1438974830
+    md5: ace3b16df56a3425dc6028205570d2f5
+    time: 1439435848
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
@@ -358,6 +361,9 @@ inventory:
   "/assets/depressed cake shop.png":
     md5: 39350bc2dbd68f12e7a75336c87b0218
     time: 1438974830
+  "/assets/Data Viz 101.png":
+    md5: 8f35d4c45890a7eab22813a56b639282
+    time: 1439435848
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
