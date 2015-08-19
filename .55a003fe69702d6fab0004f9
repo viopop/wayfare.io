@@ -1,5 +1,5 @@
 ---
-time: 1439453134
+time: 1439993452
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -8,8 +8,8 @@ inventory:
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
     time: 1438891894
   "/workspace/index.html":
-    md5: e4c2701c09d158240e7f968228a5fb81
-    time: 1438891473
+    md5: c1c71d69cb789e01f33beb01e25998c7
+    time: 1439993447
   "/events/index.html":
     md5: 30d749141cc7ca93a3e557357d3b8547
     time: 1439435845
@@ -44,8 +44,8 @@ inventory:
     md5: c927b0a76b0c79fd6894fd159983f623
     time: 1438879463
   "/workspace/dedicated-office-5-member/index.html":
-    md5: 3e599bd5aafdf0f7edca544875d66c6f
-    time: 1438879463
+    md5: de8bac111cbff5064daac0025c9e8cc8
+    time: 1439993449
   "/workspace/custom/index.html":
     md5: 4f61a762266592ef1bc3a127aefb01c2
     time: 1438879463
@@ -113,11 +113,11 @@ inventory:
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: c89a3a1f81b522deb4142a38b485eb50
-    time: 1438891905
+    md5: 1027c70b5dbba980875ce06be046ed8f
+    time: 1439993450
   "/feed.xml":
-    md5: ace3b16df56a3425dc6028205570d2f5
-    time: 1439435848
+    md5: 039972771f48baa3ab1aa6077a9d0a80
+    time: 1439993450
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
