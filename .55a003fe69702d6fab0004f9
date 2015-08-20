@@ -1,5 +1,5 @@
 ---
-time: 1440041392
+time: 1440041500
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -11,8 +11,8 @@ inventory:
     md5: c1c71d69cb789e01f33beb01e25998c7
     time: 1439993447
   "/events/index.html":
-    md5: 748f5c461a6dd09c675290a4e2dbbdfb
-    time: 1440041380
+    md5: 4af5f3484086849c9b585edd3fe0fcd3
+    time: 1440041488
   "/startups/index.html":
     md5: 8790f2c1667dd641a697333697dfe3ec
     time: 1438878065
@@ -116,8 +116,8 @@ inventory:
     md5: 1027c70b5dbba980875ce06be046ed8f
     time: 1439993450
   "/feed.xml":
-    md5: 4e253f62b9382b1fbfc9a6fd8515b7b2
-    time: 1440041391
+    md5: b6ee71634974a13e34159f81f14fbc1d
+    time: 1440041498
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
@@ -382,6 +382,9 @@ inventory:
   "/assets/work-stations-plus-espresso.jpg":
     md5: 8aa127edf3830f66594de4b4a073c705
     time: 1440041391
+  "/assets/branding.jpeg":
+    md5: 4ef4cadd0d14f1296d4a7dc06dedfc6a
+    time: 1440041498
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
