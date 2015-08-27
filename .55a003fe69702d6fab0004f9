@@ -1,5 +1,5 @@
 ---
-time: 1440042283
+time: 1440714965
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -11,8 +11,8 @@ inventory:
     md5: c1c71d69cb789e01f33beb01e25998c7
     time: 1439993447
   "/events/index.html":
-    md5: 9ae0ddc292e26a0976e56719f0bd2a4d
-    time: 1440042270
+    md5: dd136ea40dc8660f8b37137f781adc1d
+    time: 1440714945
   "/startups/index.html":
     md5: 8790f2c1667dd641a697333697dfe3ec
     time: 1438878065
@@ -100,6 +100,9 @@ inventory:
   "/events/data-viz-101/index.html":
     md5: 60e4f1fc0ff8081f1cabfd34ce54fa58
     time: 1439435847
+  "/events/truth-is-the-new-black/index.html":
+    md5: 7039e089e1100eaaaeeae7af09d8ce8b
+    time: 1440714960
   "/gift-directory/left-column/index.html":
     md5: 48adff326aa09395e7e6422ce63ec4f6
     time: 1436805498
@@ -116,8 +119,8 @@ inventory:
     md5: 1027c70b5dbba980875ce06be046ed8f
     time: 1439993450
   "/feed.xml":
-    md5: 80b2725ae37433a56345a5e3df1bd23e
-    time: 1440042281
+    md5: 70f8bfa8b143b0d9dfc4e9235a6eb697
+    time: 1440714963
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
@@ -400,6 +403,9 @@ inventory:
   "/assets/donor development.jpg":
     md5: c21b43af37fb8f1db7e64951d86333df
     time: 1440042281
+  "/assets/Truth is the New Black.jpg":
+    md5: 39092f490d53663e24f7ba9e0bfdceb7
+    time: 1440714963
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
