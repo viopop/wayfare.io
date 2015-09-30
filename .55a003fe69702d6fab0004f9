@@ -1,5 +1,5 @@
 ---
-time: 1443647121
+time: 1443648597
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -11,8 +11,8 @@ inventory:
     md5: c1c71d69cb789e01f33beb01e25998c7
     time: 1439993447
   "/events/index.html":
-    md5: c765cb038d58596843290a42ee78d867
-    time: 1443647118
+    md5: e699badf881ca699dd3e48371a9c24b2
+    time: 1443648592
   "/startups/index.html":
     md5: 8790f2c1667dd641a697333697dfe3ec
     time: 1438878065
@@ -74,8 +74,14 @@ inventory:
     md5: 6be5ddf0f6220d9187d80b0bd2c1b154
     time: 1441919953
   "/events/type/index.html":
-    md5: 1c816db6494e0e694c477ad4d262fcd5
-    time: 1443647119
+    md5: db35a4a87bac25855adf7de2e6b0c601
+    time: 1443648593
+  "/events/pressed-for-type-production-principles/index.html":
+    md5: 9219e72c332508b33f406f552a907136
+    time: 1443648593
+  "/events/type-2-the-necessities-sentences-paragraphs/index.html":
+    md5: a486ed0f5b5fd3c83c04c39eec80b548
+    time: 1443648594
   "/gift-directory/left-column/index.html":
     md5: 48adff326aa09395e7e6422ce63ec4f6
     time: 1436805498
@@ -92,8 +98,8 @@ inventory:
     md5: 1027c70b5dbba980875ce06be046ed8f
     time: 1441919953
   "/feed.xml":
-    md5: 6c64431176c97ab2da81db572d65bb49
-    time: 1443647120
+    md5: 1592ab4733338cb55547d2ba154ca13a
+    time: 1443648594
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
@@ -388,6 +394,12 @@ inventory:
   "/assets/AIGAOC_TE_Type1.jpg":
     md5: a5c8fdc6307e14c91d86455d17fccef3
     time: 1443647120
+  "/assets/AIGAOC_TE_P4T.jpg":
+    md5: 844ec002ee08d2206276ef24642719ef
+    time: 1443648594
+  "/assets/AIGAOC_TE_Type2.jpg":
+    md5: ec6422fb8a051a7a96267e5846513186
+    time: 1443648594
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
