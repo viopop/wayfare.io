@@ -1,5 +1,5 @@
 ---
-time: 1441919955
+time: 1443645047
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -11,8 +11,8 @@ inventory:
     md5: c1c71d69cb789e01f33beb01e25998c7
     time: 1439993447
   "/events/index.html":
-    md5: c1cb037c5705b50722de6a5a766bc6d3
-    time: 1441919950
+    md5: f4773a8492b52bb4aaad49e42ab387f6
+    time: 1443645044
   "/startups/index.html":
     md5: 8790f2c1667dd641a697333697dfe3ec
     time: 1438878065
@@ -61,27 +61,9 @@ inventory:
   "/events/q-commons/index.html":
     md5: f145fba779fea22f501b1a02953ffc2c
     time: 1438888446
-  "/events/mission-vision-a-micro-workshop/index.html":
-    md5: bafeb99eff60b3a3383acc6aee70ed6e
-    time: 1441401567
-  "/events/budget-and-perfoma-a-micro-workshop/index.html":
-    md5: 7e34d59d490f626e035c4dab2db36d60
-    time: 1441401567
-  "/events/organization-formation-a-micro-workshop/index.html":
-    md5: 8378a8e8829bf0f20f7396381443238a
-    time: 1441401567
-  "/events/board-development-a-micro-workshop/index.html":
-    md5: f99f4938830a35389064d8b7ce7e0127
-    time: 1441401568
   "/events/visual-storytelling-and-brand-a-micro-workshop/index.html":
     md5: 5c0541ec08a06c6372a5890c42c73816
     time: 1438890266
-  "/events/building-a-website/index.html":
-    md5: edc5ac4f97dae122c7e03667677d49ba
-    time: 1441465613
-  "/events/marketing-and-promotion/index.html":
-    md5: 37bebc3a184bc4bfad5623fedc3adffb
-    time: 1440041868
   "/events/leadership-vs-management/index.html":
     md5: 0f88adff878d71574c76394ac0406056
     time: 1440042261
@@ -122,8 +104,8 @@ inventory:
     md5: 1027c70b5dbba980875ce06be046ed8f
     time: 1441919953
   "/feed.xml":
-    md5: 903bd1e97a9f67676c6a0fafbf85a965
-    time: 1441919953
+    md5: 4c380af71471f5855fe4b725aedcbcf3
+    time: 1443645046
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
