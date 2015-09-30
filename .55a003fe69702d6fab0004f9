@@ -1,5 +1,5 @@
 ---
-time: 1443645047
+time: 1443645282
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -11,8 +11,8 @@ inventory:
     md5: c1c71d69cb789e01f33beb01e25998c7
     time: 1439993447
   "/events/index.html":
-    md5: f4773a8492b52bb4aaad49e42ab387f6
-    time: 1443645044
+    md5: f785c2117b7154ab7c1f84b8beda2598
+    time: 1443645279
   "/startups/index.html":
     md5: 8790f2c1667dd641a697333697dfe3ec
     time: 1438878065
@@ -61,21 +61,6 @@ inventory:
   "/events/q-commons/index.html":
     md5: f145fba779fea22f501b1a02953ffc2c
     time: 1438888446
-  "/events/visual-storytelling-and-brand-a-micro-workshop/index.html":
-    md5: 5c0541ec08a06c6372a5890c42c73816
-    time: 1438890266
-  "/events/leadership-vs-management/index.html":
-    md5: 0f88adff878d71574c76394ac0406056
-    time: 1440042261
-  "/events/human-resources-and-employee-benefits/index.html":
-    md5: 9592c851eb8625df05a54461bbb64483
-    time: 1440042053
-  "/events/organizational-design-workshop-star-model/index.html":
-    md5: a49c27a07673e944cb6acb53d4c0f075
-    time: 1440041533
-  "/events/donor-development-workshop/index.html":
-    md5: d8ec76a853e2be83689c958fbc3c76b1
-    time: 1440042279
   "/events/depressed-cake-shop-pop-up-shop-and-baked-good/index.html":
     md5: 9ddd6b9624f0468ef8e337233b3257ee
     time: 1438974829
@@ -104,8 +89,8 @@ inventory:
     md5: 1027c70b5dbba980875ce06be046ed8f
     time: 1441919953
   "/feed.xml":
-    md5: 4c380af71471f5855fe4b725aedcbcf3
-    time: 1443645046
+    md5: d9c2544bd790a798b6fb591727c50385
+    time: 1443645281
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
