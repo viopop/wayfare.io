@@ -1,5 +1,5 @@
 ---
-time: 1443648811
+time: 1443756851
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -11,8 +11,8 @@ inventory:
     md5: c1c71d69cb789e01f33beb01e25998c7
     time: 1439993447
   "/events/index.html":
-    md5: 38b109bfd64dd11b66c2862cfc3f4af3
-    time: 1443648808
+    md5: 3ae8551091c40ffb23bc26ec58bae085
+    time: 1443756834
   "/startups/index.html":
     md5: 8790f2c1667dd641a697333697dfe3ec
     time: 1438878065
@@ -82,6 +82,9 @@ inventory:
   "/events/type-2-the-necessities-sentences-paragraphs/index.html":
     md5: a486ed0f5b5fd3c83c04c39eec80b548
     time: 1443648594
+  "/events/go-summit-2016/index.html":
+    md5: adedf6cd698ba0fc924a606724be9f30
+    time: 1443756847
   "/gift-directory/left-column/index.html":
     md5: 48adff326aa09395e7e6422ce63ec4f6
     time: 1436805498
@@ -98,8 +101,8 @@ inventory:
     md5: 1027c70b5dbba980875ce06be046ed8f
     time: 1441919953
   "/feed.xml":
-    md5: 661de3a81b4945b208aa8384185afbad
-    time: 1443648810
+    md5: 3c552446cefbca5be27dbb692c19dc73
+    time: 1443756849
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
@@ -400,6 +403,9 @@ inventory:
   "/assets/AIGAOC_TE_Type2.jpg":
     md5: ec6422fb8a051a7a96267e5846513186
     time: 1443648594
+  "/assets/GO16-Banner-Square-2.jpg":
+    md5: aa8d7c95314a513ed580f32d5c7485ff
+    time: 1443756849
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
