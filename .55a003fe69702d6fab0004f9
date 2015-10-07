@@ -1,5 +1,5 @@
 ---
-time: 1443756851
+time: 1444260406
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -94,6 +94,9 @@ inventory:
   "/deals/pirate-coast/index.html":
     md5: 8d88179933ba2fbdf875a4afb1ce983a
     time: 1436898964
+  "/deals/neat-coffee/index.html":
+    md5: 31a37f82d8cbcec0d3fbf55faae15a48
+    time: 1444260404
   "/CNAME":
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
@@ -101,8 +104,8 @@ inventory:
     md5: 1027c70b5dbba980875ce06be046ed8f
     time: 1441919953
   "/feed.xml":
-    md5: 3c552446cefbca5be27dbb692c19dc73
-    time: 1443756849
+    md5: d0f35e58aa7062ab5911e19f2490865d
+    time: 1444260404
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
@@ -406,6 +409,9 @@ inventory:
   "/assets/GO16-Banner-Square-2.jpg":
     md5: aa8d7c95314a513ed580f32d5c7485ff
     time: 1443756849
+  "/assets/neat coffee perkhub deal.jpg":
+    md5: 2d7869955b3e0042bd9f12b9691d250e
+    time: 1444260404
   "/assets/space-interior-3.jpg":
     md5: 44c0658db7c06430bdf5ae2793a96e64
     time: 1436688829
