@@ -1,5 +1,5 @@
 ---
-time: 1444260406
+time: 1445646402
 inventory:
   "/about/index.html":
     md5: ea33f17f60e2c5b9020b9773c5ebc1d6
@@ -11,8 +11,8 @@ inventory:
     md5: c1c71d69cb789e01f33beb01e25998c7
     time: 1439993447
   "/events/index.html":
-    md5: 3ae8551091c40ffb23bc26ec58bae085
-    time: 1443756834
+    md5: 06d215932732aa0815641eef08d1bdee
+    time: 1445646399
   "/startups/index.html":
     md5: 8790f2c1667dd641a697333697dfe3ec
     time: 1438878065
@@ -85,6 +85,9 @@ inventory:
   "/events/go-summit-2016/index.html":
     md5: adedf6cd698ba0fc924a606724be9f30
     time: 1443756847
+  "/events/truth-is-the-new-black-1/index.html":
+    md5: 8f2847e7fb34c471a031bd6a96ef8644
+    time: 1445646400
   "/gift-directory/left-column/index.html":
     md5: 48adff326aa09395e7e6422ce63ec4f6
     time: 1436805498
@@ -104,8 +107,8 @@ inventory:
     md5: 1027c70b5dbba980875ce06be046ed8f
     time: 1441919953
   "/feed.xml":
-    md5: d0f35e58aa7062ab5911e19f2490865d
-    time: 1444260404
+    md5: 6f3795352457b6b012594128badfe0b9
+    time: 1445646400
   "/assets/space-interior-1.jpg":
     md5: d95252c5b8c1467c09344a11e586e894
     time: 1436688825
