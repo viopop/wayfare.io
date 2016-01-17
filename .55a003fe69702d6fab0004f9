@@ -1,5 +1,5 @@
 ---
-time: 1452921129
+time: 1453073941
 inventory:
   "/about/index.html":
     md5: 7dd3649e7b45f509edb1561f2bca0367
@@ -8,17 +8,17 @@ inventory:
     md5: 7dd3649e7b45f509edb1561f2bca0367
     time: 1452921119
   "/workspace/index.html":
-    md5: d89a963da33e9b490aefb89a9f88690e
-    time: 1452356535
+    md5: 18036b47375ecabb8dde19893517dc2a
+    time: 1453073936
   "/events/index.html":
     md5: 66ad684ddc432b18ddf8225d0cb95d5b
     time: 1452356536
   "/startups/index.html":
-    md5: 8ff1dc64b1001e0cb0b340637627ad40
-    time: 1452356536
+    md5: 40f48309cd5f056f7d12e9fb215ae99c
+    time: 1453073937
   "/gift-directory/index.html":
-    md5: b51683eddf35b1651048bf150617deb1
-    time: 1452356536
+    md5: 6a32b93605b6c6165832b678edef58aa
+    time: 1453073937
   "/contact/index.html":
     md5: fc7db5338a16016abff5d9481a9aed39
     time: 1452356536
@@ -41,8 +41,8 @@ inventory:
     md5: 534a970a82611e6002a3ea2ef40946d2
     time: 1452356536
   "/workspace/dedicated-office/index.html":
-    md5: 3ee3cd48d0ad155fb9bf6ba89ef1664d
-    time: 1452356536
+    md5: e07058db72e9edd0db58075d2a3bc638
+    time: 1453073937
   "/workspace/dedicated-office-5-member/index.html":
     md5: 6b84e4712572fc77aa128fd92839fb4c
     time: 1452356536
@@ -101,8 +101,8 @@ inventory:
     md5: 00c03977b271be7de02e4cb65617922e
     time: 1452356537
   "/gift-directory/right-column/index.html":
-    md5: a6d6121311dfa8b28fd709d5ec0073c5
-    time: 1452356537
+    md5: f54e436b4abbdd29ddf02401f64efe60
+    time: 1453073938
   "/deals/pirate-coast/index.html":
     md5: 22d73a0d25cd0414cd9ddf7bc4dc06b3
     time: 1452356537
@@ -113,11 +113,11 @@ inventory:
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: 504473ec45a7b0aa77b8015b52a505b4
-    time: 1452921121
+    md5: e61e9379596fa54a3ccdcb20b33f2af0
+    time: 1453073938
   "/feed.xml":
-    md5: 396f0482e249546b037a14a35bbd775e
-    time: 1452921121
+    md5: 374b01d3f0641b4b3bd344d7e165ad5a
+    time: 1453073938
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
