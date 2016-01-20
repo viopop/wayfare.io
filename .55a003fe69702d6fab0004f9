@@ -1,5 +1,5 @@
 ---
-time: 1453074240
+time: 1453330107
 inventory:
   "/about/index.html":
     md5: 883f53874f4b52991d62ffba710bf145
@@ -8,8 +8,8 @@ inventory:
     md5: 883f53874f4b52991d62ffba710bf145
     time: 1453074237
   "/workspace/index.html":
-    md5: 18036b47375ecabb8dde19893517dc2a
-    time: 1453073936
+    md5: 5a7ee3c58bd0761c5252ae7ebf6ed692
+    time: 1453330102
   "/events/index.html":
     md5: 66ad684ddc432b18ddf8225d0cb95d5b
     time: 1452356536
@@ -26,23 +26,23 @@ inventory:
     md5: 50d0e08debcc65a0faf2ec1abbe8fb7e
     time: 1452356536
   "/workspace/30-hours/index.html":
-    md5: e54cc977f56417d0163ca8ed5500aaa7
-    time: 1452356536
+    md5: 3fa98cc9e0db36b352b015965a042b97
+    time: 1453330103
   "/workspace/100-hours/index.html":
-    md5: 2f781eddca121023238d64d53b80e21d
-    time: 1452356536
+    md5: 9532c9de770a379b9a379a19eaf56f00
+    time: 1453330103
   "/workspace/unlimited/index.html":
-    md5: d8af2a30e1e60bc707bb85f47caff2fd
-    time: 1452356536
+    md5: 0bec4a62a6a3327947ff9754646104b6
+    time: 1453330103
   "/workspace/dedicated-desk/index.html":
-    md5: b00b1369753c2f5168d36f61beea2481
-    time: 1452356536
+    md5: af72b2be90cba3372fdf9cea45d740d0
+    time: 1453330103
   "/workspace/mailbox/index.html":
     md5: 534a970a82611e6002a3ea2ef40946d2
     time: 1452356536
   "/workspace/dedicated-office/index.html":
-    md5: e07058db72e9edd0db58075d2a3bc638
-    time: 1453073937
+    md5: 2bf40c457f8ea9cbc3bbca4be3d22113
+    time: 1453330103
   "/workspace/dedicated-office-5-member/index.html":
     md5: 6b84e4712572fc77aa128fd92839fb4c
     time: 1452356536
@@ -116,8 +116,8 @@ inventory:
     md5: 7e3f610da47bd562e4530b7e0777ae18
     time: 1453074239
   "/feed.xml":
-    md5: 9d8faef562537eb986575aa6c77e739a
-    time: 1453074239
+    md5: 21a71fcadc8adf74dba16e14a659c3cc
+    time: 1453330104
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
