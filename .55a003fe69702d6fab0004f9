@@ -1,12 +1,12 @@
 ---
-time: 1453416299
+time: 1454615894
 inventory:
   "/about/index.html":
-    md5: f15503c354f0716ce974295803de6929
-    time: 1453416282
+    md5: 9e438eb1776e6f690b0bb4846a5cea9c
+    time: 1454615890
   "/index.html":
-    md5: f15503c354f0716ce974295803de6929
-    time: 1453416282
+    md5: 9e438eb1776e6f690b0bb4846a5cea9c
+    time: 1454615890
   "/workspace/index.html":
     md5: fd750093d9c34a1b9f8d54b63178f86f
     time: 1453416282
@@ -113,11 +113,11 @@ inventory:
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: 7e3f610da47bd562e4530b7e0777ae18
-    time: 1453074239
+    md5: 6a47b092d4f674116a5eac7814e02029
+    time: 1454615892
   "/feed.xml":
-    md5: f1274df0ef3912dacc542dd4906f2f86
-    time: 1453416284
+    md5: 9e9d58038a9e5549ac7c127b82898fbe
+    time: 1454615892
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
@@ -445,21 +445,15 @@ inventory:
   "/assets/wayfare4.jpg":
     md5: 3a6851d16ea0cc3c5233e425e2f6edd7
     time: 1452921122
-  "/assets/wayfare3.jpg":
-    md5: e2a035a76b40d275e512c579d5a0ec90
-    time: 1452921122
-  "/assets/space-interior-7.jpg":
-    md5: f2135e7d37ebc104196efc0650629dee
-    time: 1436688830
   "/assets/space-interior-10.jpg":
     md5: ea3b8c6910b6110995e1fb8f0955054a
     time: 1436688830
-  "/assets/space-interior-8.jpg":
-    md5: e7ef4f98c5c3a46934fa3ba69ead0c0f
+  "/assets/unspecified-2.jpeg":
+    md5: a960fdf68db2b2a35253aef1d944a298
+    time: 1454615892
+  "/assets/space-interior-7.jpg":
+    md5: f2135e7d37ebc104196efc0650629dee
     time: 1436688830
   "/assets/space-exterior-1.jpg":
     md5: a003b62236cf7b1f152f5beddcf2be0e
-    time: 1436688830
-  "/assets/space-interior-9.jpg":
-    md5: 8dbba9618d430cee58706310576626ea
     time: 1436688830
