@@ -1,5 +1,5 @@
 ---
-time: 1454712920
+time: 1454713995
 inventory:
   "/about/index.html":
     md5: f1ce9fc57c2606703a2b8733373bb380
@@ -8,8 +8,8 @@ inventory:
     md5: f1ce9fc57c2606703a2b8733373bb380
     time: 1454616552
   "/workspace/index.html":
-    md5: 6c1b2d82c8cd697f27b2815e68fa043e
-    time: 1454712917
+    md5: fafc86a0827bd1b23ba5d42465cf75a9
+    time: 1454713992
   "/events/index.html":
     md5: 1607c9dc8ac3ff007116b8d74ef125fc
     time: 1454619448
@@ -125,11 +125,11 @@ inventory:
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: 7d0b91a69ac4181a2b3ba1681b349bf0
-    time: 1454616554
+    md5: 6b6676e7ce8fc7dec9fa0ac49a42e006
+    time: 1454713993
   "/feed.xml":
-    md5: 8440628e767444d6abc102997b0ae67e
-    time: 1454712919
+    md5: 290a61ffbc6817b6c11f1c0b1fd0f7f2
+    time: 1454713993
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
