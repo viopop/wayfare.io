@@ -1,5 +1,5 @@
 ---
-time: 1454712771
+time: 1454712853
 inventory:
   "/about/index.html":
     md5: f1ce9fc57c2606703a2b8733373bb380
@@ -8,8 +8,8 @@ inventory:
     md5: f1ce9fc57c2606703a2b8733373bb380
     time: 1454616552
   "/workspace/index.html":
-    md5: f6386515c351c2cce3b8dc13bb70a5db
-    time: 1454712767
+    md5: fddb74428f67dead6f7c8735eb32d19f
+    time: 1454712850
   "/events/index.html":
     md5: 1607c9dc8ac3ff007116b8d74ef125fc
     time: 1454619448
@@ -50,8 +50,8 @@ inventory:
     md5: 6c21f90c664c6cc61692dbcbf4fe0127
     time: 1453416283
   "/workspace/meeting-rooms/index.html":
-    md5: a4eecceee75ffbba393ce772f36180e8
-    time: 1454712767
+    md5: 9eb21ddf59ccb1835afba73d15a95ca8
+    time: 1454712850
   "/workspace/small-meeting-room/index.html":
     md5: 3b968c65fd6f6e5eea1e3422d5a962ae
     time: 1454712767
@@ -128,8 +128,8 @@ inventory:
     md5: 7d0b91a69ac4181a2b3ba1681b349bf0
     time: 1454616554
   "/feed.xml":
-    md5: 416b04b2abc1e198bc946ddef738e138
-    time: 1454712768
+    md5: 52279ac0dab3f9fd77735057e81ab302
+    time: 1454712851
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
