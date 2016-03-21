@@ -1,5 +1,5 @@
 ---
-time: 1458598002
+time: 1458598099
 inventory:
   "/about/index.html":
     md5: 1131a5c79310b8c485f238fd1cada0c9
@@ -122,8 +122,8 @@ inventory:
     md5: 4f44abcd27071b4a834a39ce6143ef9d
     time: 1455338733
   "/deals/juice-served-here/index.html":
-    md5: 73b892f073b093143e693240984d1d6c
-    time: 1458598001
+    md5: c054341c14f481cfadb65a02b17b350a
+    time: 1458598097
   "/CNAME":
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
@@ -131,8 +131,8 @@ inventory:
     md5: 8ac98a1ae77a15d85d8fa8c444e00b36
     time: 1455338733
   "/feed.xml":
-    md5: 404dd39e28633c9d34fb458e780468bf
-    time: 1458598001
+    md5: 634514e52b6ebb69b0a04cd7d616e916
+    time: 1458598097
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
@@ -463,12 +463,12 @@ inventory:
   "/assets/wayfare4copy.jpg":
     md5: bdcec2e790007a180e12372c1fb5215a
     time: 1454712768
-  "/assets/Juice Served Here Coupon.jpg":
-    md5: d1e97d8271ac370bb7af50bdddb628b1
-    time: 1458598001
   "/assets/wayfare1.jpg":
     md5: 9c22a4a9f5a67baf45a3ae3e994d811f
     time: 1452921121
+  "/assets/Juice Served Here Coupon-1.jpg":
+    md5: d1e97d8271ac370bb7af50bdddb628b1
+    time: 1458598097
   "/assets/wayfare4.jpg":
     md5: 3a6851d16ea0cc3c5233e425e2f6edd7
     time: 1452921122
