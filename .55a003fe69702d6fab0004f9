@@ -1,5 +1,5 @@
 ---
-time: 1459453845
+time: 1461086192
 inventory:
   "/about/index.html":
     md5: 18947417206feb7aeb6e7450143660cb
@@ -8,8 +8,8 @@ inventory:
     md5: 18947417206feb7aeb6e7450143660cb
     time: 1459453837
   "/workspace/index.html":
-    md5: 1aa73c679ad6a3e6ba382360e4818624
-    time: 1455338731
+    md5: 04a190d39bb7305c19ca490a0a919565
+    time: 1461086188
   "/events/index.html":
     md5: 660f1820700f4c76022919f32349f9b8
     time: 1458612487
@@ -47,8 +47,8 @@ inventory:
     md5: 0567af063c7b9289734059078964ff29
     time: 1455338732
   "/workspace/dedicated-office-5-member/index.html":
-    md5: 33cb34ca35296d1eed294ad41d724828
-    time: 1455338732
+    md5: 889e3e284f405b60bc77e5d2ca71b826
+    time: 1461086189
   "/workspace/custom/index.html":
     md5: 78201e992aa62f1c0f4360cb563f6547
     time: 1455338732
@@ -140,8 +140,8 @@ inventory:
     md5: 5b3106175e1870a29a48f8b83ab7a88a
     time: 1459453843
   "/feed.xml":
-    md5: fad0610640e44ade482fb667c9a637a7
-    time: 1459453843
+    md5: 55b35eee315167171a062eb089d525ae
+    time: 1461086190
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
