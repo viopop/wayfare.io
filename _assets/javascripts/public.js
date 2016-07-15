@@ -5,6 +5,7 @@
 //= require vendor/fotorama
 //= require vendor/angular-1.3.0-rc.2.min
 //= require vendor/bigslide
+//= require vendor/moment.min
 
 $(function() {
   $('.big-slide-link').bigSlide({
@@ -84,7 +85,7 @@ angular.module("WayfareApp").filter('https', function() {
 
 angular.module('WayfareApp').factory('TicketLeap', ['$http', function($http) {
   return function() {
-    return $http.jsonp("https://public-api.ticketleap.com/organizations/wayfare/events?key=7331436096006273&page_size=50&callback=JSON_CALLBACK")
+    return $http.jsonp("https://public-api.ticketleap.com/organizations/wayfare/events?key=7331436096006273&page_size=50&dates_after="+moment().format('YYYY-MM-DD')+"&callback=JSON_CALLBACK")
   };
 }]);
 
