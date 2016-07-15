@@ -1,5 +1,5 @@
 ---
-time: 1467924359
+time: 1468617309
 inventory:
   "/about/index.html":
     md5: 18947417206feb7aeb6e7450143660cb
@@ -214,9 +214,6 @@ inventory:
   "/_assets/images/wayfare-rendering.jpg":
     md5: 5490bec7086a3f71a145cfa114751dff
     time: 1436688827
-  "/_assets/javascripts/public.js":
-    md5: 60ff86fa68ac6b4495d24d16b9cb35dc
-    time: 1436688827
   "/_assets/javascripts/vendor/angular-1.3.0-rc.2.min.js":
     md5: 472dedda0d21cc8432b8bef2c93ecd38
     time: 1436688827
@@ -312,9 +309,6 @@ inventory:
     time: 1436688828
   "/assets/images/wayfare-rendering.jpg":
     md5: 5490bec7086a3f71a145cfa114751dff
-    time: 1436688828
-  "/assets/javascripts/public.js":
-    md5: 007dc41545ec6f84b20ce7dbd9ef1256
     time: 1436688828
   "/assets/stylesheets/sticky-footer-ie.css":
     md5: fde5643ffbdf7d7d9158b62f905c9005
@@ -496,6 +490,15 @@ inventory:
   "/assets/pilot-overview2@2x.jpg":
     md5: d4a895345d1547970e219618ad63dea9
     time: 1467923848
+  "/_assets/javascripts/public.js":
+    md5: c24d47bbc46e2ffaba7554a52c62ddca
+    time: 1468617308
+  "/_assets/javascripts/vendor/moment.min.js":
+    md5: 2b7d0faf3728e2b30b55ace597e2a8a5
+    time: 1468617309
+  "/assets/javascripts/public.js":
+    md5: de9d92bd1e434cbd97475940887dd8d2
+    time: 1468617309
   "/assets/wayfare1.jpg":
     md5: 9c22a4a9f5a67baf45a3ae3e994d811f
     time: 1452921121
