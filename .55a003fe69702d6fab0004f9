@@ -1,12 +1,12 @@
 ---
-time: 1470170980
+time: 1470171693
 inventory:
   "/about/index.html":
-    md5: 0f453c7d06e79b77fceae527784a5e08
-    time: 1470169706
+    md5: af9153dfd05446cc100decfb2953e7d7
+    time: 1470171689
   "/index.html":
-    md5: 0f453c7d06e79b77fceae527784a5e08
-    time: 1470169706
+    md5: af9153dfd05446cc100decfb2953e7d7
+    time: 1470171689
   "/workspace/index.html":
     md5: 993312b7668e7bd4f965194c829383e4
     time: 1470170844
@@ -143,11 +143,11 @@ inventory:
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: 88c83bf3668914d2ba5a04c89f6a6262
-    time: 1470170978
+    md5: de9ff84050a368a040390b07cde1f614
+    time: 1470171691
   "/feed.xml":
-    md5: b59813aae99d889f1ac4a8a2b00d1ddc
-    time: 1470170978
+    md5: 882d1ebc619e41225ea8376714fc68ed
+    time: 1470171691
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
