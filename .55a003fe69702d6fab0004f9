@@ -1,141 +1,141 @@
 ---
-time: 1470759726
+time: 1470768482
 inventory:
   "/about/index.html":
-    md5: 828b7a3d465b081d4026f2b24d0d6ac8
-    time: 1470172644
+    md5: 50e59c422b794b0a374503cf60ec29d7
+    time: 1470768460
   "/index.html":
-    md5: 828b7a3d465b081d4026f2b24d0d6ac8
-    time: 1470172644
+    md5: 50e59c422b794b0a374503cf60ec29d7
+    time: 1470768460
   "/workspace/index.html":
-    md5: 993312b7668e7bd4f965194c829383e4
-    time: 1470170844
+    md5: 7b2f6b47fb0486ba67d875f1b59db0db
+    time: 1470768461
   "/events/index.html":
-    md5: 4b7935617ce47dd0007ef581c31e5647
-    time: 1470170976
+    md5: 73c18b65c35048a92d64961d6a447b83
+    time: 1470768461
   "/startups/index.html":
-    md5: d3a4c22d957dbf90c4e464858fd304f2
-    time: 1470170214
+    md5: db9952dfd2550899519b35bbec76b9bd
+    time: 1470768461
   "/gift-directory/index.html":
-    md5: 8057e32c7aa78ccc1389d16ea4fde6c5
-    time: 1455338732
+    md5: fb2d88653583ba39db648c51f96849ce
+    time: 1470768461
   "/contact/index.html":
-    md5: 76c822218a7605de36264366d73c9e87
-    time: 1464570234
+    md5: ae7890019c065c183423e3add125912d
+    time: 1470768462
   "/deals/index.html":
-    md5: 270c517f23c832acc5ef7758c2f151e2
-    time: 1455338732
+    md5: ecc07eef5e728d5c7795474d8bb32119
+    time: 1470768462
   "/interns/index.html":
-    md5: 37f2d9ada55bcb0eef1e57c21e07d468
-    time: 1470759723
+    md5: de434249233b3ac343f3280427524777
+    time: 1470768462
   "/workspace/30-hours/index.html":
-    md5: 4bd6e94c217edf24c451370481e07dc1
-    time: 1455338732
+    md5: 0e79886a947f6247ae723579001a49cc
+    time: 1470768462
   "/workspace/100-hours/index.html":
-    md5: 2d14f6eb52f378e93212621d216acdaa
-    time: 1455338732
+    md5: ee0563101abbdfa893d4d5ceb7ba3ba2
+    time: 1470768462
   "/workspace/unlimited/index.html":
-    md5: e2670cdad8577dd5e0bca6f791797b72
-    time: 1455338732
+    md5: 5ee56df3a1471f38394797f51d51a627
+    time: 1470768462
   "/workspace/dedicated-desk/index.html":
-    md5: bed213d9c7db4cdda0062a33267c948a
-    time: 1455338732
+    md5: eb0de0ac472258321633e6781c9ce1f3
+    time: 1470768462
   "/workspace/mailbox/index.html":
-    md5: ec8a8f58de2fd0ff86b7a9563662fa8a
-    time: 1455338732
+    md5: 0d643875da9468566183fc957bcb7ad2
+    time: 1470768462
   "/workspace/dedicated-office/index.html":
-    md5: 0567af063c7b9289734059078964ff29
-    time: 1455338732
+    md5: f586ca9de900aa86cf0c2769ab571c1a
+    time: 1470768462
   "/workspace/dedicated-office-5-member/index.html":
-    md5: 889e3e284f405b60bc77e5d2ca71b826
-    time: 1461086189
+    md5: 57f9d6f1c86a526ed95c0a3cd1c854da
+    time: 1470768462
   "/workspace/custom/index.html":
-    md5: 78201e992aa62f1c0f4360cb563f6547
-    time: 1455338732
+    md5: eb2ed2df8965fe470bffb5246573ca5d
+    time: 1470768462
   "/workspace/meeting-rooms/index.html":
-    md5: c06ee1ed222b005d7d5fc576c0b65f7a
-    time: 1455338732
+    md5: 17a84e3f08b28b1fbf776c20b333ef23
+    time: 1470768462
   "/workspace/small-meeting-room/index.html":
-    md5: 1fd8c43bfce1279602cee3ee8fd513dc
-    time: 1455338732
+    md5: e8b8c1a7d0500af9add20fef7ae804ee
+    time: 1470768462
   "/events/poppyjack-calligraphy-for-beginners-2015-08-22/index.html":
-    md5: ee4d1f3227dd96a3375c2e9ea9e1a63b
-    time: 1455338732
+    md5: bc5e6e9bb23f6a9515da9833a5b43f1e
+    time: 1470768462
   "/events/kakalligraphy-beginner-copperplate-workshop-1/index.html":
-    md5: 985cba18e98ca716ea4b17449c69b5c3
-    time: 1455338732
+    md5: cc18e038ab2dd5e187ed42f9df9c04ee
+    time: 1470768462
   "/events/kakalligraphy-intermediate-copperplate-workshop/index.html":
-    md5: 4afec89cd71f580337484c04d561cc81
-    time: 1455338732
+    md5: f3311d484be1204c672ed929cdaef78e
+    time: 1470768462
   "/events/q-commons/index.html":
-    md5: 569187630bdaf07c355588762242f135
-    time: 1455338733
+    md5: e837ee5e4499c12e802f026583cf8de9
+    time: 1470768462
   "/events/depressed-cake-shop-pop-up-shop-and-baked-good/index.html":
-    md5: 77e046a7c8b502276735a15760d103dd
-    time: 1455338733
+    md5: bbc9ced29045c0d3f06059ab343ecde5
+    time: 1470768462
   "/events/data-viz-101/index.html":
-    md5: be08be83c599d219afe7f4031a1d1f74
-    time: 1455338733
+    md5: 154d3272e3fc5aa9a7a5c667dd31d60c
+    time: 1470768462
   "/events/truth-is-the-new-black/index.html":
-    md5: 926d49093d2bbbef7a46425efcb3c2f8
-    time: 1455338733
+    md5: 31ff11a7ea5ec10edc1473d8fd6fce1b
+    time: 1470768462
   "/events/lvl-academy-2-day-workshop/index.html":
-    md5: aed1f401227747b111fbbac791803e21
-    time: 1455338733
+    md5: b258324ed104be757e3fd3d1ee8e9bc1
+    time: 1470768463
   "/events/type/index.html":
-    md5: 4869e04b52f5a0690ed2c22112fd554a
-    time: 1455338733
+    md5: 7836358733599a9f4058a798e7d2d5a1
+    time: 1470768463
   "/events/pressed-for-type-production-principles/index.html":
-    md5: 816d156c5be9dfc5857ffd957debba40
-    time: 1455338733
+    md5: cde0f8c15a62ed02287c4aa021f14026
+    time: 1470768463
   "/events/type-2-the-necessities-sentences-paragraphs/index.html":
-    md5: 2de47bff824183de6aac2e3bd5f3d05e
-    time: 1455338733
+    md5: 66ad81c8b9b3d8e8e8fdd334ad9d21a9
+    time: 1470768463
   "/events/go-summit-2016/index.html":
-    md5: 1b08865d7cf442f19feb995b56dae670
-    time: 1455338733
+    md5: 45a0b59d0b941655666cec9e45a9e232
+    time: 1470768463
   "/events/truth-is-the-new-black-1/index.html":
-    md5: 2ecd5f772cd088d23c5cd3306b35a1d6
-    time: 1455338733
+    md5: 6de983ee0c670c7490d86bf90c533b66
+    time: 1470768463
   "/events/type-3/index.html":
-    md5: 00e7ae18c7aa9167556f1cd567e5c749
-    time: 1455338733
+    md5: 34e854af10c188fea40f3a0f2b4c8feb
+    time: 1470768463
   "/events/freedom-fundraiser/index.html":
-    md5: 7edadd4aa5cc3a00182e25cc9f0cd66f
-    time: 1455338733
+    md5: 35a4daba1e1496eca6c07e22e3eded2d
+    time: 1470768463
   "/events/intro-to-modern-calligraphy-with-poppyjack-shop-jan-2016/index.html":
-    md5: 2c45be3f5a86a39dfd62472e17bfec55
-    time: 1455338733
+    md5: 37beefbbe19e47663a18105c9dc5583a
+    time: 1470768463
   "/events/q-commons-costa-mesa/index.html":
-    md5: 9b41079c49dea32cbe38a43f48cc40e4
-    time: 1469917506
+    md5: f00ccde62a87e9d9490711955468d1d8
+    time: 1470768463
   "/events/scriptology-wor/index.html":
-    md5: 4ed9c95e7eb2e8c0207d7286e9ebc12f
-    time: 1455338733
+    md5: 69440e186a4500b2ebe974ab46714aac
+    time: 1470768463
   "/events/marketplacewomen/index.html":
-    md5: 4d676af31bc32af831d6fc51056a3d1e
-    time: 1458612488
+    md5: b4687edab7be6ea4e47cfd107f98f263
+    time: 1470768463
   "/events/social-media-for-creatives-workshop/index.html":
-    md5: d07c2cd04ec34e341b6a5068c6058bc4
-    time: 1467827790
+    md5: db3fb879587839df33182a9e06e55dde
+    time: 1470768463
   "/events/wayfare-labs-pilot-retreat/index.html":
-    md5: 04c60720050a205c369a38c41899455b
-    time: 1467924358
+    md5: 5c5bf173fdcdc908768028c1853d5e39
+    time: 1470768463
   "/gift-directory/left-column/index.html":
-    md5: 49e514b3edd1ca9563ef51ed2ba629b8
-    time: 1455338733
+    md5: a1753a3d4a8d46d8a611f123cea3ebca
+    time: 1470768463
   "/gift-directory/right-column/index.html":
-    md5: 5b557dfe85b67881696fc44b0f93c3ff
-    time: 1455338733
+    md5: 461e10c13d75f0955484792bf09c5b8a
+    time: 1470768463
   "/deals/pirate-coast/index.html":
-    md5: a710e6649de577be2022a012a63a3427
-    time: 1455338733
+    md5: 74d7a6a4596cc7aa1e2a9faf02395885
+    time: 1470768463
   "/deals/neat-coffee/index.html":
-    md5: 4f44abcd27071b4a834a39ce6143ef9d
-    time: 1455338733
+    md5: 4f69984e8d8f5bcc1f0f60cc3e8d9310
+    time: 1470768463
   "/deals/juice-served-here/index.html":
-    md5: c054341c14f481cfadb65a02b17b350a
-    time: 1458598097
+    md5: bafe043514d7dde8547e8a74c27ca8f4
+    time: 1470768463
   "/CNAME":
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
@@ -143,8 +143,8 @@ inventory:
     md5: 45cd1d4248225ce8bfdfe4ff994e0ac5
     time: 1470759724
   "/feed.xml":
-    md5: 2bf12d4690798eca226713bebc68ec2b
-    time: 1470759724
+    md5: 5944644d3835f5bed5f401c2418ba3ab
+    time: 1470768463
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
@@ -490,6 +490,12 @@ inventory:
   "/assets/javascripts/public.js":
     md5: de9d92bd1e434cbd97475940887dd8d2
     time: 1468617309
+  "/_assets/images/wayfare-interns.jpg":
+    md5: 65112cd2bd1d2db855c9e27e6ed24776
+    time: 1470768464
+  "/assets/images/wayfare-interns.jpg":
+    md5: 65112cd2bd1d2db855c9e27e6ed24776
+    time: 1470768464
   "/assets/wayfare1.jpg":
     md5: 9c22a4a9f5a67baf45a3ae3e994d811f
     time: 1452921121
