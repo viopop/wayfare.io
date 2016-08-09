@@ -1,5 +1,5 @@
 ---
-time: 1470172648
+time: 1470759726
 inventory:
   "/about/index.html":
     md5: 828b7a3d465b081d4026f2b24d0d6ac8
@@ -25,9 +25,9 @@ inventory:
   "/deals/index.html":
     md5: 270c517f23c832acc5ef7758c2f151e2
     time: 1455338732
-  "/cafe/index.html":
-    md5: 7001c75228c6abb5df17f98fc7e3c3db
-    time: 1459011675
+  "/interns/index.html":
+    md5: 37f2d9ada55bcb0eef1e57c21e07d468
+    time: 1470759723
   "/workspace/30-hours/index.html":
     md5: 4bd6e94c217edf24c451370481e07dc1
     time: 1455338732
@@ -136,18 +136,15 @@ inventory:
   "/deals/juice-served-here/index.html":
     md5: c054341c14f481cfadb65a02b17b350a
     time: 1458598097
-  "/cafe/march-28-2016-april-1-2016/index.html":
-    md5: 780cbdfa2254a3c73167857cfee74408
-    time: 1459011676
   "/CNAME":
     md5: d097b67537704086e4e7d3721429f9c6
     time: 1436688825
   "/sitemap.xml":
-    md5: 68fe91c8be7237bd557a157db52ab8ad
-    time: 1470172646
+    md5: 45cd1d4248225ce8bfdfe4ff994e0ac5
+    time: 1470759724
   "/feed.xml":
-    md5: cbbbff4934fa47a18ee1e75a94a9e0a4
-    time: 1470172646
+    md5: 2bf12d4690798eca226713bebc68ec2b
+    time: 1470759724
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
