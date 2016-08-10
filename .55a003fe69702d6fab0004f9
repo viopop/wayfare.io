@@ -1,5 +1,5 @@
 ---
-time: 1470768482
+time: 1470873043
 inventory:
   "/about/index.html":
     md5: 50e59c422b794b0a374503cf60ec29d7
@@ -11,8 +11,8 @@ inventory:
     md5: 7b2f6b47fb0486ba67d875f1b59db0db
     time: 1470768461
   "/events/index.html":
-    md5: 73c18b65c35048a92d64961d6a447b83
-    time: 1470768461
+    md5: 06d96b6a89edbfc1b15b66431022ba39
+    time: 1470873038
   "/startups/index.html":
     md5: db9952dfd2550899519b35bbec76b9bd
     time: 1470768461
@@ -121,6 +121,9 @@ inventory:
   "/events/wayfare-labs-pilot-retreat/index.html":
     md5: 5c5bf173fdcdc908768028c1853d5e39
     time: 1470768463
+  "/events/watercolor-brush-lettering-with-nicole-miyuki/index.html":
+    md5: 9d227c9e689396e2a5b1da4f20ef1963
+    time: 1470873040
   "/gift-directory/left-column/index.html":
     md5: a1753a3d4a8d46d8a611f123cea3ebca
     time: 1470768463
@@ -143,8 +146,8 @@ inventory:
     md5: 45cd1d4248225ce8bfdfe4ff994e0ac5
     time: 1470759724
   "/feed.xml":
-    md5: 5944644d3835f5bed5f401c2418ba3ab
-    time: 1470768463
+    md5: bc019e4ae3b4407f9279e8a4d8360263
+    time: 1470873040
   "/assets/typed.jpg":
     md5: bb4fa6ff3257a8e42ca018b89cace337
     time: 1436688825
@@ -496,6 +499,9 @@ inventory:
   "/assets/images/wayfare-interns.jpg":
     md5: 65112cd2bd1d2db855c9e27e6ed24776
     time: 1470768464
+  "/assets/16_8.20_wayfare.jpg":
+    md5: 5a02d2d7823b7c9bd3835a59b2ddecce
+    time: 1470873040
   "/assets/wayfare1.jpg":
     md5: 9c22a4a9f5a67baf45a3ae3e994d811f
     time: 1452921121
